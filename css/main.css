@@ -224,7 +224,6 @@ nav {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.02em;
-    color: #4A4A4A;
 }
 
 .lineHeight {
@@ -255,7 +254,6 @@ nav {
 
 .headlines {                                                      /*заголовок*/
     margin-top: 44px;
-    margin-left: 10px;
     font-family: Montserrat;
     font-weight: bold;
     font-size: 25px;
@@ -280,10 +278,6 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
-
 
 .catalogContent {                                                      /*catalog content*/
     display: -webkit-box;
@@ -339,18 +333,14 @@ nav {
     letter-spacing: 0.013em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.showAll {                                                               /*start add more*/
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #FFCA0F;
+}
 
 input[type="checkbox"], .fulltext {
   display: none;
@@ -362,26 +352,23 @@ input:checked + div {
 
 label {
   cursor: pointer;
-}
+}                                                                         /*end add more*/
 
-
-
-
-
-
-
-
-
-
-.showAll {
-    text-align: center;
+.catalogPricesSale {                                                       /*Sale heading*/
+    margin-left: 32px;
+    text-decoration: line-through;
     font-family: Montserrat;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
     letter-spacing: 0.02em;
     color: #FFCA0F;
 }
 
-.text-align {
-    
+.SaleBlock {                                                              /*SaleBlock*/
+    margin-top: 25px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
 }
