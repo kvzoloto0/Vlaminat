@@ -372,3 +372,35 @@ label {
     line-height: 20px;
     letter-spacing: 0.02em;
 }
+
+.brandyLogo {                                                              /*start brandy logo*/
+    margin-top: 28px;
+}
+
+.logoSwissKrono {
+    width: 20px;
+    height: 19px;
+}
+
+.swissKrono {
+    width: 107px;
+    height: 12px;
+}
+
+.kronotex {
+    width: 131px;
+    height: 35px;
+}
+
+.e_and_rectanglePlusEgger {
+    position: relative; 
+}
+
+.egger {                                                                    /*end brandy logo*/
+    position: absolute;
+    top: 21px;
+    left: 112px;
+}
+
+
+
