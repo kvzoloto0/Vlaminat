@@ -402,5 +402,102 @@ label {
     left: 112px;
 }
 
+.reviews1 {                                                                  /*reviews*/
+    margin-top: 28px;
+}
+
+.reviews2 {
+    margin-top: 28px;
+    margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+.contactsBlock {
+    margin-top: 15px;
+    margin-bottom: 13px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
+    color: #4A4A4A;
+    opacity: 0.9;
+}
+
+.insta {
+    margin-left: 11px;
+}
+
+.openingHours {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #4A4A4A;
+}
+
+.openingHours hr{
+    
+}
+
+.lines {
+    margin-top: 8px;
+    color: #4A4A4A;
+}
+
+.mapsText {
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #4A4A4A;
+}
+
+.warehouse {
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #BEBEBE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
