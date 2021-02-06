@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');            /*font-family: 'Comfortaa', cursive;*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');          /*font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
 
 
 
@@ -15,13 +15,22 @@ nav {
     margin-left: 10px;     
 }
 
-.logoBlockL{                                                                                /*logo L and text*/ 
+.logoBlock {
     display: flex;
 }
 
+.logoL {
+    width: 34px;
+    height: 45px;
+}
+
+.logoBlockVandText {
+    display: flex;
+    flex-direction: column;
+}
+
 .blockWithTextL {
-    margin-top: 32px;
-    margin-left: 2px;
+    margin-left: 4px;
     font-family: 'Comfortaa';
     font-size: 17px;
     line-height: 17px;
@@ -30,19 +39,16 @@ nav {
     opacity: 0.9;
 }
 
-.logoV {                                                                                      /*logo V and text*/
-    position: absolute;
-    top: 12px;
-    left: 52px;
-}
-
-.logoBlockV {
-    display: flex;
+.logoV {   
+    margin-top: 2px;
+    margin-left: -5px;
+    width: 23px;
+    height: 29px;
 }
 
 .blockWithTextV {
-    margin-top: -32px;
-    margin-left: 52px;
+    margin-top: -15px;
+    margin-left: 15px; 
     font-family: Comfortaa;
     font-size: 14px;
     line-height: 17px;
@@ -50,7 +56,7 @@ nav {
     color: #BEBEBE;
 }
 
-.navBurger {                                                                                         /*start burger menu*/                                                              
+.navBurger {                                                           
     margin-left: 15px;
     margin-top: 20px;
     cursor: pointer;
@@ -186,8 +192,7 @@ nav {
 }
 
 .locationBlock {
-    margin-top: 15px;
-    margin-left: 27px;
+    margin-top: 33px;
     font-family: Montserrat;
     font-size: 12px;
     line-height: 14px;
@@ -202,9 +207,9 @@ nav {
     line-height: 14px;
     letter-spacing: 0.02em;
     color: #BEBEBE;
-}                                                                                  /*end burger menu*/        
+}     
                                                                                     
-.provideChernivtsi {                                                                   /*content  one text*/
+.provideChernivtsi {
     margin-top: 22px;
     margin-bottom: 18px;
     font-family: Montserrat;
@@ -219,7 +224,7 @@ nav {
     color: #FFCA0F;
 }
 
-.contentText {                                                                                /*following text*/
+.contentText {
     font-family: Montserrat;
     font-size: 14px;
     line-height: 20px;
@@ -232,7 +237,13 @@ nav {
     line-height: 2.01;
 }
 
-.quickConsultation {                                                                       /*button quickConsultation*/
+.mother_with_child{
+    width: 100%;
+    height: 215px;
+    object-fit: cover;
+}
+
+.quickConsultation {
     color: black;
     display: flex;
     flex-direction: row;
@@ -242,6 +253,8 @@ nav {
     width: 88%;
     height: 56px;
     margin: 16px 20px;
+    background-color: #FFFFFF;	 
+    background:transparent !important;
 }
 
 .quickConsultationText {
@@ -252,7 +265,7 @@ nav {
     letter-spacing: 0.02em;
 }
 
-.headlines {                                                      /*заголовок*/
+.headlines {
     margin-top: 44px;
     font-family: Montserrat;
     font-weight: bold;
@@ -262,7 +275,7 @@ nav {
     color: #4A4A4a;
 }
 
-.thatsWhyWeText {                                                   /*'Ось чому мы' текст*/          
+.thatsWhyWeText {        
     margin-top: 8px;
     font-family: Montserrat;
     font-size: 14px;
@@ -272,14 +285,15 @@ nav {
     color: #4A4A4A;
 }
 
-.thatsWhyWeImg {                                                  /*'Ось чому мы' картинки*/
-    margin-top: 28px;
+.thatsWhyWeImg {
+    margin-top: 2.25rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.catalogContent {                                                      /*catalog content*/
+/*
+.catalogContent {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -287,26 +301,27 @@ nav {
     -ms-flex-pack: justify;
     justify-content: space-between; 
 }
+*/
 
 .catalogBlockFirst {
     width: 100%;
-    height: 148px;
-    margin-top: 11px; 
+    height: 100%;
+    margin-top: 10px; 
 }
 
 .catalogBlock {
     width: 100%;
-    height: 148px;
-    margin-top: 18px; 
+    height: 100%;
+    margin-top: 10px; 
 }
 
-.catalogBlockFirst img{                                                    /*catalog img*/
+.catalogBlockFirst img{
     display: block;
     width: 100%;
     max-height: 245px;
 }
 
-.catalogBlock img{                                                    /*catalog img*/
+.catalogBlock img{
     display: block;
     width: 100%;
     max-height: 245px;
@@ -317,7 +332,7 @@ nav {
     padding-left: 8px;
 }
 
-.catalogText {                                                    /*catalog content text*/
+.catalogText {
     font-family: Montserrat;
     font-size: 12px;
     line-height: 14px;
@@ -325,7 +340,7 @@ nav {
     color: #4A4A4A;
 }
 
-.catalogPrices {                                                    /*catalog content price*/
+.catalogPrices {
     font-family: Montserrat;
     font-weight: 500;
     font-size: 18px;
@@ -333,13 +348,21 @@ nav {
     letter-spacing: 0.013em;
 }
 
-.showAll {                                                               /*start add more*/
-    text-align: center;
+.showAllBlock{
+    margin: 0 auto;
+    margin-top: 16px;
+    width: 130px;
+    height: 26px;
+    background: #FFF0C7;
+}
+
+.showAll {
     font-family: Montserrat;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.02em;
-    color: #FFCA0F;
+    color: #4A4A4A;
+    opacity: 0.8;
 }
 
 input[type="checkbox"], .fulltext {
@@ -351,10 +374,10 @@ input:checked + div {
 }
 
 label {
-  cursor: pointer;
-}                                                                         /*end add more*/
+    cursor: pointer;
+}
 
-.catalogPricesSale {                                                       /*Sale heading*/
+.catalogPricesSale {
     margin-left: 32px;
     text-decoration: line-through;
     font-family: Montserrat;
@@ -365,7 +388,7 @@ label {
     color: #FFCA0F;
 }
 
-.SaleBlock {                                                              /*SaleBlock*/
+.SaleBlock {
     margin-top: 25px;
     font-family: Montserrat;
     font-size: 14px;
@@ -373,8 +396,8 @@ label {
     letter-spacing: 0.02em;
 }
 
-.brandyLogo {                                                              /*start brandy logo*/
-    margin-top: 28px;
+.brandyLogo {
+    margin-top: 2.25rem;
 }
 
 .logoSwissKrono {
@@ -396,27 +419,15 @@ label {
     position: relative; 
 }
 
-.egger {                                                                    /*end brandy logo*/
+.egger {
     position: absolute;
     top: 21px;
     left: 112px;
 }
 
-.reviews1 {                                                                  /*reviews*/
+.reviews1 {
     margin-top: 28px;
 }
-
-.reviews2 {
-    margin-top: 28px;
-    margin-left: 16px;
-}
-
-
-
-
-
-
-
 
 .contactsBlock {
     margin-top: 15px;
@@ -443,17 +454,12 @@ label {
     color: #4A4A4A;
 }
 
-.openingHours hr{
-    
-}
-
 .lines {
     margin-top: 8px;
     color: #4A4A4A;
 }
 
 .mapsText {
-    margin-top: 20px;
     font-family: Montserrat;
     font-size: 12px;
     line-height: 14px;
@@ -461,8 +467,12 @@ label {
     color: #4A4A4A;
 }
 
+iframe {
+    margin-top: 8px;
+}
+
 .warehouse {
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 8px;
     font-family: Montserrat;
     font-size: 12px;
@@ -470,6 +480,74 @@ label {
     letter-spacing: 0.02em;
     color: #BEBEBE;
 }
+footer {
+    margin-top: 47px;
+    background: url("../img/footer.png");
+    height: 100%;
+    max-height: 570px;
+    width: 100%;
+}
+
+.linkNavigationFooter {
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.013em;
+    color: #FFFFFF;
+}
+
+.linkNavigationFooter:hover {
+    color: #F9B247;
+}
+
+.textFooter1 {
+    margin-top: 33px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.013em;
+    color: #F9B247;
+}
+
+.textFooter2 {
+    margin-top: 6px;
+    font-family: Montserrat;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #BEBEBE;
+}
+
+.contactsBlockFooter {
+    margin-top: 13px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.013em;
+    color: #FFFFFF;
+}
+
+.instaFooter {
+    margin-left: 16px;
+}
+
+.mail {
+    font-family: Montserrat;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFCA0F;
+}
+
+.imgFooter {
+    margin-top: 10px;
+}
 
 
 
@@ -481,18 +559,69 @@ label {
 
 
 
+.minimized {
+  cursor: pointer;
+  border: 1px solid #FFF;
+}
 
+.minimized:hover {
+  border: 1px solid #FFAD44;
+        overflow: hidden;
+}
 
+#magnify {
+  display: none;
+  position: fixed;
+  max-width: 600px;
+  height: auto;
+  z-index: 9999;
+}
 
+#magnify img {
+  width: 100%;
+}
 
+#overlay {
+  display: none;
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 9990;
+}
 
+#close-popup {
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  border: 1px solid #AFAFAF;
+  border-radius: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
 
+#close-popup i {
+  width: 30px;
+  height: 30px;
+  background: url(https://codernote.ru/files/cross.png) no-repeat center center;
+  background-size: 16px 16px;
+  display: block;
+}
 
+@keyframes rota {
+ 25% { transform: rotate(360deg); }
+}
 
-
-
-
-
+#close-popup:hover {
+  animation: rota 4s infinite normal;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
 
 
 
