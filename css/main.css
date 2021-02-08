@@ -7,7 +7,6 @@
 
 body{
     background: #FFFAF5;
-    height: 3000px;
 }
 
 nav {
@@ -229,12 +228,13 @@ nav {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.02em;
-}
-
-.lineHeight {
     margin-top: 1px;
     margin-bottom: 10px; 
     line-height: 2.01;
+}
+
+.lineHeight {
+
 }
 
 .mother_with_child{
@@ -339,29 +339,31 @@ nav {
     color: #4A4A4A;
 }
 
+.textTruck {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 250px;
+}
+
 .thatsWhyWeImg {
+    margin-top: 2.25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.truckImg {
     margin-top: 2.25rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.catalogBlockFirst {
-    width: 100%;
-    height: 100%;
-    margin-top: 10px; 
-}
-
 .catalogBlock {
     width: 100%;
     height: 100%;
     margin-top: 10px; 
-}
-
-.catalogBlockFirst img{
-    display: block;
-    width: 100%;
-    max-height: 245px;
 }
 
 .catalogBlock img{
@@ -491,17 +493,11 @@ label {
     height: 35px;
 }
 
-.e_and_rectanglePlusEgger {
-    position: relative; 
-}
 
-.egger {
-    position: absolute;
-    top: 21px;
-    left: 112px;
-}
 
-.reviews1 {
+
+
+.reviews {
     margin-top: 28px;
 }
 
@@ -838,6 +834,98 @@ footer {
     width: 100%;
     height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+body{
+    margin-left: -40px;
+}
+.provideChernivtsi {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.07em;
+    color: #4A4A4A;
+}
+.contentText{
+    font-size: 22px;
+    letter-spacing: 0.013em;
+}  
+.quickConsultation1{
+    width: 309px;
+    height: 68px;
+}   
+.headlines{
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.07em;
+}   
+.thatsWhyWeText{
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
+}   
+.thatsWhyWeImg{
+    width: 50px;
+}
+.truckImg {
+    width: 76px;
+    height: 50px;
+}
+.catalogText{
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+.catalogPrices{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.013em;
+}
+.catalogBlock{
+    margin-top: 20px;
+    width: 355px;
+    height: 324px;
+}   
+.catalogBlock img{
+    width: 355px;
+    height: 245px;
+}
+.twoRow {
+    margin-left: 18px;
+}
+.allAtTheAddressBlock{
+    padding: 0 30px;
+    width: 355px;
+    height: 324px;
+}  
+.SaleBlock{
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
+}
+.reviews{
+    width: 355px;
+    height: 631px;
+}
+.contactsBlock{
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.07em;
+}
+}
+
+
+
+
+
 
 
 

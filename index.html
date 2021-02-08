@@ -55,16 +55,15 @@
     <h1 class="provideChernivtsi">
         <span class="colorLetter">З</span>абезпечуєм чернівчан якісною підлогою
     </h1>
-    <span class="contentText">
+    <div class="contentText">
        Ламінат на буковині ще не бував таким доступним.
-       <div class="lineHeight">
-           <span class="colorLetter">—</span> Скидки та бонуси
-           <br>
-           <span class="colorLetter">—</span> Бренди визнані Європою
-           <br>
-           <span class="colorLetter">—</span> Якісне обслуговування клієнтів
-       </div>
-    </span>
+       <br>
+       <span class="colorLetter">—</span> Скидки та бонуси
+       <br>
+       <span class="colorLetter">—</span> Бренди визнані Європою
+       <br>
+       <span class="colorLetter">—</span> Якісне обслуговування клієнтів
+    </div>
 </div>
 <img class="mother_with_child" src="img/mother_with_child.png" alt="mother_with_child">
 <div class="container">
@@ -82,22 +81,22 @@
         <div class="headlines">   
             <span class="colorLetter">О</span>сь чому ми
         </div>
-        <div class="col">
+        <div class="col-md-6">
             <img class="thatsWhyWeImg" src="img/percent.png">
             <div class="thatsWhyWeText"> 
                  <span>Найнижчі ціни на підлогу у Чернівецькій області</span>
             </div>
         </div>
-        <div class="col">      
+        <div class="col-md-6">      
             <img class="thatsWhyWeImg" src="img/assortment.png">
             <div class="thatsWhyWeText">
                 <span>Широкий асортимент <br> ламінату, паркету, плинтусів</span>
             </div>
         </div>
         <div class="col">
-            <img class="thatsWhyWeImg" src="img/truck.png">
+            <img class="truckImg" src="img/truck.png">
             <div class="thatsWhyWeText">
-                <span>Доступна доставка по області</span>
+                <div class="textTruck">Доступна доставка по області</div>
             </div>
         </div>
     </div>
@@ -105,8 +104,8 @@
         <div class="headlines" id="catolog">
             <span class="colorLetter">К</span>аталог
         </div>
-        <div class="col">
-            <div class="catalogBlockFirst">
+        <div class="col-md-6">
+            <div class="catalogBlock">
                 <img src="img/laminat.png" class="minimized" alt="Laminat"> 
                 <div class="catalogLines">
                     <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>
@@ -114,14 +113,16 @@
                 </div>
             </div>
         </div>
-        <div class="catalogBlock">
-            <img src="img/laminat.png" alt="Laminat">
-            <div class="catalogLines">
-                <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>
-                <div class="catalogPrices">778₴/м2</div>
-            </div>
-        </div> 
-        <div class="col"> 
+        <div class="col-md-6">
+            <div class="catalogBlock twoRow">
+                <img src="img/laminat.png" alt="Laminat">
+                <div class="catalogLines">
+                    <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>
+                    <div class="catalogPrices">778₴/м2</div>
+                </div>
+            </div> 
+        </div>
+        <div class="col-md-6"> 
             <div class="catalogBlock">
                 <img src="img/laminat.png" alt="Laminat">
                 <div class="catalogLines">
@@ -130,7 +131,16 @@
                 </div>
             </div>
         </div>
-        <div class="col"> 
+        <div class="col-md-6"> 
+            <div class="catalogBlock twoRow">
+                <img src="img/laminat.png" alt="Laminat">
+                <div class="catalogLines">
+                    <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>
+                    <div class="catalogPrices">778₴/м2</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">  
             <div class="catalogBlock">
                 <img src="img/laminat.png" alt="Laminat">
                 <div class="catalogLines">
@@ -139,17 +149,8 @@
                 </div>
             </div>
         </div>
-        <div class="col">  
-            <div class="catalogBlock">
-                <img src="img/laminat.png" alt="Laminat">
-                <div class="catalogLines">
-                    <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>
-                    <div class="catalogPrices">778₴/м2</div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="catalogBlock">
+        <div class="col-md-6">
+            <div class="catalogBlock twoRow">
                 <img src="img/laminat.png" alt="Laminat">
                 <div class="catalogLines">
                     <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>
@@ -163,29 +164,31 @@
     </div>
     <input type="checkbox" id="show">
     <div class="fulltext"> 
-        <div class="col">    
-            <div class="catalogBlock">
-                <img src="img/laminat.png" alt="Laminat">
-                <div class="catalogLines">
-                    <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>
-                    <div class="catalogPrices">778₴/м2</div>
-                </div>
-            </div> 
-        </div>
-        <div class="col">     
-            <div class="catalogBlock">
-                <img src="img/laminat.png" alt="Laminat">
-                <div class="catalogLines">
-                    <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>>
-                    <div class="catalogPrices">778₴/м2</div>
+        <div class="row row-cols-1">
+            <div class="col-md-6">    
+                <div class="catalogBlock">
+                    <img src="img/laminat.png" alt="Laminat">
+                    <div class="catalogLines">
+                        <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>
+                        <div class="catalogPrices">778₴/м2</div>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-6">     
+                <div class="catalogBlock twoRow">
+                    <img src="img/laminat.png" alt="Laminat">
+                    <div class="catalogLines">
+                        <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>>
+                        <div class="catalogPrices">778₴/м2</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col">    
-            <div class="allAtTheAddressBlock">
-                <div class="allAtTheAddress">Весь асортимент<br> за адресою</div>
-                <img class="markImg" src="img/mark.png">
-                <div class="additionAddress">калинівський ринок сектор<br> 1 контейнер 664 665</div>
+            <div class="col-md-6">    
+                <div class="allAtTheAddressBlock">
+                    <div class="allAtTheAddress">Весь асортимент<br> за адресою</div>
+                    <img class="markImg" src="img/mark.png">
+                    <div class="additionAddress">калинівський ринок сектор<br> 1 контейнер 664 665</div>
+                </div>
             </div>
         </div>
     </div>
@@ -193,8 +196,8 @@
         <div class="headlines" id="Sale">
             <span class="colorLetter">З</span>нижки від <span class="colorLetter">15%</span>
         </div>
-        <div class="col"> 
-            <div class="catalogBlockFirst">
+        <div class="col-md-6"> 
+            <div class="catalogBlock">
                 <img src="img/laminat.png" alt="Laminat">                                                                    
                 <div class="catalogLines">
                     <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>
@@ -205,7 +208,19 @@
                 </div>
             </div> 
         </div>
-        <div class="col">
+        <div class="col-md-6">
+            <div class="catalogBlock twoRow">
+                <img src="img/laminat.png" alt="Laminat">
+                <div class="catalogLines">
+                    <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>
+                    <div class="catalogPrices">
+                        <span>778₴/м2</span>
+                        <span class="catalogPricesSale">248₴</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
             <div class="catalogBlock">
                 <img src="img/laminat.png" alt="Laminat">
                 <div class="catalogLines">
@@ -217,65 +232,57 @@
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="catalogBlock">
-                <img src="img/laminat.png" alt="Laminat">
-                <div class="catalogLines">
-                    <span class="catalogText">My Floor Villa M 1204 Harbour Oak Grey</span>
-                    <div class="catalogPrices">
-                        <span>778₴/м2</span>
-                        <span class="catalogPricesSale">248₴</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="SaleBlock">                                                                                                           
-                Весь асортимент та знижки за адресою
-                <br><br>
-                <span class="colorLetter">—</span> 
-                калинівський ринок сектор 1 контейнер 664, 665
-            </div>
+        <div class="SaleBlock">                                                                                                           
+            Весь асортимент та знижки за адресою
+            <br><br>
+            <span class="colorLetter">—</span> 
+            калинівський ринок сектор 1 контейнер 664, 665
         </div>
     </div>                                                                                                                                    
     <div class="headlines" id="brands">                                                         
         <span class="colorLetter">Б</span>ренди
     </div>
     <div class="text-center">
-            <div class="col brandyLogo">                                                      
+        <div class="row">
+            <div class="col-md-3 brandyLogo">                                                      
                 <img class="logoSwissKrono" class="rounded" src="img/logoSwissKrono.png">
                 <img class="swissKrono" class="rounded" src="img/swissKrono.png">
             </div>
-            <div class="col brandyLogo">
+            <div class="col-md-3 brandyLogo">
                 <img class="kronotex" class="rounded" src="img/kronotex%20.png">
             </div>
-            <div class="e_and_rectanglePlusEgger brandyLogo">
+            <div class="col-md-3 brandyLogo">
                 <img class="e_and_rectangle" src="img/e_and_rectangle.png">
-                <img class="egger" src="img/egger.png">
             </div>
-            <div class="col brandyLogo">
+            <div class="col-md-3 brandyLogo">
                 <img src="img/myFloor.png">
             </div>
+        </div>
     </div>                                                                                                                                     
     <div class="headlines" id="reviews">    
         <span class="colorLetter">В</span>ідгуки
     </div>
     <div class="row">
-        <div class="col">
-            <img class="reviews1" src="img/reviews.png">
+        <div class="col-6 col-md-6">
+            <img class="reviews" src="img/reviews.png">
         </div>
-        <div class="col">
-            <img class="reviews1" src="img/reviews.png">
+        <div class="col-6 col-md-6">
+            <img class="reviews twoRow" src="img/reviews.png">
         </div>  
     </div>                                                                                                                                                          
-    <div class="headlines" id="contacts"> 
-        <span class="colorLetter">К</span>онтакти
+    <div class="headlines" id="contacts">
+        <div class="d-md-none"> 
+            <span class="colorLetter">К</span>онтакти
+        </div>
+        <div class="d-none d-md-block d-lg-none">
+            <span class="colorLetter">К</span>онтакти для замовлення та консультації
+        </div>
     </div>
     <div class="contactsBlock">
         <div>050 915 2254</div>
         <div>096 053 0420</div>
     </div>
-    <img src="img/viber.png">
+    <img class="viber" src="img/viber.png">
     <img class="insta" src="img/insta.png">
     <button type="button" class="btn btn-outline-warning quickConsultation2">
         <label for="popupCheckboxOne" class="popupCheckboxOne">
