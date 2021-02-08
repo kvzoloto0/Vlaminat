@@ -197,7 +197,6 @@ nav {
     line-height: 14px;
     letter-spacing: 0.02em;
     color: #E7E7E7;
-    margin-bottom: 20px;
 }
 
 .locationText {
@@ -553,11 +552,9 @@ iframe {
     color: #BEBEBE;
 }
 footer {
+    position: relative;
     margin-top: 47px;
     background: url("../img/footer.png");
-    height: 100%;
-    max-height: 570px;
-    width: 100%;
 }
 
 .linkNavigationFooter {
@@ -580,7 +577,7 @@ footer {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 25px;
     letter-spacing: 0.013em;
     color: #F9B247;
@@ -630,70 +627,7 @@ footer {
 
 
 
-/*увелечение фото*/
-.minimized {
-  cursor: pointer;
-  border: 1px solid #FFF;
-}
 
-.minimized:hover {
-  border: 1px solid #FFAD44;
-        overflow: hidden;
-}
-
-#magnify {
-  display: none;
-  position: fixed;
-  max-width: 600px;
-  height: auto;
-  z-index: 9999;
-}
-
-#magnify img {
-  width: 100%;
-}
-
-#overlay {
-  display: none;
-  background: #000;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0.5;
-  z-index: 9990;
-}
-
-#close-popup {
-  width: 30px;
-  height: 30px;
-  background: #FFFFFF;
-  border: 1px solid #AFAFAF;
-  border-radius: 15px;
-  cursor: pointer;
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-#close-popup i {
-  width: 30px;
-  height: 30px;
-  background: url(https://codernote.ru/files/cross.png) no-repeat center center;
-  background-size: 16px 16px;
-  display: block;
-}
-
-@keyframes rota {
- 25% { transform: rotate(360deg); }
-}
-
-#close-popup:hover {
-  animation: rota 4s infinite normal;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
 /*увелечение фото*/
 
 
@@ -855,10 +789,34 @@ body{
     color: #4A4A4A;
 }
 .contentText{
+    margin-top: 36px;
+    margin-bottom: 22px;
     font-size: 22px;
     letter-spacing: 0.013em;
 }  
 .quickConsultation1{
+    margin-top: 32px;
+    width: 309px;
+    height: 68px;
+}
+.quickConsultationText1{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.013em;
+}
+.quickConsultation3{
+    padding: 0 10px;
+}
+.quickConsultationText2{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.013em;
+}
+.phone_icon_1{
+    margin-left: 220px;
+    margin-top: -80px;
+}
+.quickConsultation2{
     width: 309px;
     height: 68px;
 }   
@@ -901,6 +859,16 @@ body{
 .twoRow {
     margin-left: 18px;
 }
+.showAllBlock{
+    width: 188px;
+    height: 41px;
+}
+.showAll{
+    padding: 10px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.013em;
+}
 .allAtTheAddressBlock{
     padding: 0 30px;
     width: 355px;
@@ -919,6 +887,77 @@ body{
     font-size: 40px;
     line-height: 50px;
     letter-spacing: 0.07em;
+}
+.viber{
+    width: 50px;
+    height: 54px;
+}
+.insta{
+    width: 50px;
+}
+.openingHours{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.013em;
+}
+.mapsText{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.013em;
+}
+.warehouse{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.013em;
+}
+.linkNavigationFooter{
+    line-height: 30px;
+}
+.textFooter1{
+    margin-top: 13px;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
+}
+.textFooter2{
+    position: absolute;
+    top: 54px;
+    right: 20px;
+    text-align: right;
+}
+.contactsBlockFooter{
+    margin-top: 30px;
+    margin-left: 25px; 
+    font-size: 25px;
+    line-height: 32px;
+    text-align: right;
+    letter-spacing: 0.013em;
+}
+.quickConsultation3{
+    margin-top: -60px;
+    width: 307px;
+}
+.mail{
+    margin-top: 60px;
+    margin-left: 25px;
+    text-align: right;
+}
+.imgFooter{
+    position: absolute;
+    margin-left: 445px;
+}
+.locationBlock{   
+    margin-top: 28px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+.locationText{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
 }
 }
 
