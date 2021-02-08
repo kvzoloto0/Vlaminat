@@ -243,16 +243,15 @@ nav {
     object-fit: cover;
 }
 
-.quickConsultation {
+.quickConsultation1 {
     color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 25px;
     width: 88%;
     height: 56px;
-    margin: 16px 20px;
+    margin: 16px 16px;
     background-color: #FFFFFF;	 
     background:transparent !important;
 }
@@ -261,8 +260,63 @@ nav {
     font-family: Montserrat;
     font-size: 12px;
     line-height: 14px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0.02em;
+}
+
+.quickConsultationText2 {
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 14px 10px;
+}
+
+.phone_icon {
+    margin-top: -40px;
+    margin-left: 150px;
+}
+
+.quickConsultationText1 {
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    margin: 14px 10px;
+    color: #4A4A4A;
+}
+
+.phone_icon_1 {
+    margin-top: -70px;
+    margin-left: 200px;
+}
+
+.quickConsultation2 {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    margin: 15px 0;
+    background-color: #FFFFFF;	 
+    background:transparent !important;
+}
+
+.quickConsultation3 {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    margin: 16px 0px;	 
+    background:transparent !important;
 }
 
 .headlines {
@@ -291,17 +345,6 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
-
-/*
-.catalogContent {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; 
-}
-*/
 
 .catalogBlockFirst {
     width: 100%;
@@ -386,6 +429,39 @@ label {
     text-align: right;
     letter-spacing: 0.02em;
     color: #FFCA0F;
+}
+
+.allAtTheAddressBlock {
+    width: 100%;
+    height: 148px;
+    background: #777777;
+}
+
+
+.allAtTheAddress {
+    margin-top: 10px;
+    padding-top: 15px;
+    margin-left: 18px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
+    color: #FFFFFF;
+}
+
+.additionAddress {
+    margin-top: 4px;
+    margin-left: 18px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.markImg {
+    margin-left: 18px;
 }
 
 .SaleBlock {
@@ -558,7 +634,7 @@ footer {
 
 
 
-
+/*увелечение фото*/
 .minimized {
   cursor: pointer;
   border: 1px solid #FFF;
@@ -621,6 +697,146 @@ footer {
   animation: rota 4s infinite normal;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+}
+/*увелечение фото*/
+
+
+.popup-checkbox, .popup {
+    display: none;
+}
+
+.popup {                                /*фиксирование на промежутке*/                   
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.popup:before {                        /*background*/
+    display: block;
+    content: ' ';
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .5;
+}
+
+.popup-content {                       /*сам екран*/
+    width: 100%;
+    height: 403px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #4A4A4A;
+    border: 2px solid #FFFFFF;
+    padding: 20px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.popup-closer {                                       /*кнопка закритые*/
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #999;
+    font-size: 20px;
+    border: 1px solid #999;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.popup-checkbox:checked + .popup {                  /*когда нажал*/             
+    opacity: 1; 
+    display: block;
+}
+
+.callYouBack {
+    margin-top: 30px;
+    margin-left: -20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 10px;
+    letter-spacing: 0.013em;
+    color: #FFFFFF;
+}
+
+
+.popup-content input {
+    display: block;
+    margin-bottom: 40px;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #ffffff;
+    font-family: Montserrat;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #BEBEBE;
+}
+
+.name {
+    margin-top: 46px;
+}
+
+.quickConsultation {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 25px;
+    width: 100%;
+    height: 64px;
+    background-color: #FFFFFF;	 
+    background:transparent !important;
+}
+
+.confirmText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.013em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.textUnderButton {
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #BEBEBE;
+}
+
+.popupCheckboxOne {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 
