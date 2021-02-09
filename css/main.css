@@ -191,6 +191,7 @@ nav {
 }
 
 .locationBlock {
+    padding: 10px 20;
     margin-top: 33px;
     font-family: Montserrat;
     font-size: 12px;
@@ -207,7 +208,7 @@ nav {
     color: #BEBEBE;
 }     
                                                                                     
-.provideChernivtsi {
+.provideChernivtsi { 
     margin-top: 22px;
     margin-bottom: 18px;
     font-family: Montserrat;
@@ -222,6 +223,8 @@ nav {
     color: #FFCA0F;
 }
 
+
+
 .contentText {
     font-family: Montserrat;
     font-size: 14px;
@@ -230,10 +233,6 @@ nav {
     margin-top: 1px;
     margin-bottom: 10px; 
     line-height: 2.01;
-}
-
-.lineHeight {
-
 }
 
 .mother_with_child{
@@ -392,6 +391,12 @@ nav {
     letter-spacing: 0.013em;
 }
 
+.lineThrough {
+    color: #4A4A4A;
+    text-decoration: line-through;
+}
+
+
 .showAllBlock{
     margin: 0 auto;
     margin-top: 16px;
@@ -423,7 +428,6 @@ label {
 
 .catalogPricesSale {
     margin-left: 32px;
-    text-decoration: line-through;
     font-family: Montserrat;
     font-size: 17px;
     line-height: 20px;
@@ -431,6 +435,7 @@ label {
     letter-spacing: 0.02em;
     color: #FFCA0F;
 }
+
 
 .allAtTheAddressBlock {
     width: 100%;
@@ -554,7 +559,10 @@ iframe {
 footer {
     position: relative;
     margin-top: 47px;
-    background: url("../img/footer.png");
+    min-height: 570px;
+    background: url("../img/footer320.png");
+    width: 100%;
+    object-fit: cover;
 }
 
 .linkNavigationFooter {
@@ -786,7 +794,6 @@ body{
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.07em;
-    color: #4A4A4A;
 }
 .contentText{
     margin-top: 36px;
@@ -820,6 +827,12 @@ body{
     width: 309px;
     height: 68px;
 }   
+.contentTextH3 {
+    line-height: 1.6;
+}  
+.spaceAndText {
+    line-height: 2.6;
+}
 .headlines{
     font-size: 40px;
     line-height: 50px;
@@ -960,6 +973,162 @@ body{
     letter-spacing: 0.02em;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1399.98px) {
+.provideChernivtsi {
+    margin-top: 75px;
+    font-size: 59px;
+    line-height: 70px;
+    letter-spacing: 0.07em;
+    z-index: 1;
+}   
+.contentText{
+    margin-top: 36px;
+    margin-bottom: 22px;
+    font-size: 20px;
+    letter-spacing: 0.013em;
+    line-height: 50px;
+}  
+.contentTextH3 {
+    line-height: 30px;
+}   
+    .mother_with_child{
+        position: absolute;
+        top: 136px;
+        left: 892px;
+        width: 1028px;
+        height: 677px;
+        z-index: -2;
+    }
+    .headlines{
+        margin-top: 128px;
+        margin-bottom: 50px;
+        font-size: 59px;
+        line-height: 70px;
+        letter-spacing: 0.07em;
+    }
+    .headlinesOne{
+        margin-top: 275px;
+    }
+    .thatsWhyWeText{
+        margin-top: 14px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.013em;
+    }
+    .catalogBlock{
+        margin-top: 14px;
+        width: 309px;
+        height: 327px;
+    } 
+    .catalogBlock img{
+        width: 309px;
+        height: 245px;
+    }
+    .catalogText{
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+    .catalogPrice{
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.013em;
+    }
+    .twoRow{
+        margin-left: 0px;
+    }
+    .showAllBlock{
+        margin-top: 40px;
+    }
+    .SaleBlock{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.013em; 
+    }
+
+    .logoSwissKrono{
+        margin-left: -60px; 
+        width: 37px;
+        height: 37px;
+    }
+    .swissKrono{
+        width: 202px;
+        height: 23px;
+    }
+    .kronotex{
+        width: 207px;
+        height: 56px;
+    }
+    .e_and_rectangle{
+        width: 205px;
+        height: 61px;
+    }
+    .myFloor{
+        width: 208px;
+        height: 48px;
+    }
+    .reviews{
+        width: 309px;
+        height: 550px; 
+    }
+    .contactsBlock{
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: 0.07em;
+    }
+    .openingHours{
+        margin-top: 60px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.013em;
+    }
+    .viber{
+        margin-left: 350px;
+        margin-top: 25px;
+    }
+    .insta{
+        margin-left: 450px;
+        margin-top: -80px; 
+    }
+    .quickConsultation2{
+        margin-left: 120px;
+    }
+    .warehouse{
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.013em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
