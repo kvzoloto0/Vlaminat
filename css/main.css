@@ -191,8 +191,7 @@ nav {
 }
 
 .locationBlock {
-    padding: 10px 20;
-    margin-top: 33px;
+    padding: 15px 0;
     font-family: Montserrat;
     font-size: 12px;
     line-height: 14px;
@@ -201,10 +200,6 @@ nav {
 }
 
 .locationText {
-    font-family: Montserrat;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.02em;
     color: #BEBEBE;
 }     
                                                                                     
@@ -559,7 +554,7 @@ iframe {
 footer {
     position: relative;
     margin-top: 47px;
-    min-height: 570px;
+    max-height: 570px;
     background: url("../img/footer320.png");
     width: 100%;
     object-fit: cover;
@@ -615,6 +610,7 @@ footer {
 }
 
 .mail {
+    margin-top: 15px;
     font-family: Montserrat;
     font-size: 17px;
     line-height: 20px;
@@ -788,7 +784,7 @@ footer {
 
 @media (min-width: 768px) {
 body{
-    margin-left: -40px;
+    margin-left: -40px;                                                /*!!!!!!!!!!!!!!!!!*/
 }
 .provideChernivtsi {
     font-size: 48px;
@@ -934,14 +930,12 @@ body{
     letter-spacing: 0.013em;
 }
 .textFooter2{
-    position: absolute;
     top: 54px;
     right: 20px;
     text-align: right;
 }
 .contactsBlockFooter{
-    margin-top: 30px;
-    margin-left: 25px; 
+    margin-top: 30px; 
     font-size: 25px;
     line-height: 32px;
     text-align: right;
@@ -952,22 +946,22 @@ body{
     width: 307px;
 }
 .mail{
-    margin-top: 60px;
-    margin-left: 25px;
+    margin-top: 80px;
     text-align: right;
 }
 .imgFooter{
     position: absolute;
-    margin-left: 445px;
+    margin-left: 420px;
 }
 .locationBlock{   
-    margin-top: 28px;
+    padding: 20px 0px;
     margin-bottom: 0px;
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.02em;
 }
-.locationText{
+.locationBlock{
+    margin-top: 20px;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.02em;
@@ -1006,9 +1000,10 @@ body{
     line-height: 30px;
 }   
     .mother_with_child{
+        background: url("../img/mother_with_childBig.png");
         position: absolute;
         top: 136px;
-        left: 892px;
+        right: 0px;
         width: 1028px;
         height: 677px;
         z-index: -2;
@@ -1112,7 +1107,51 @@ body{
         line-height: 32px;
         letter-spacing: 0.013em;
     }
+    footer{
+        background: url("../img/footerBig.png");
+        min-height: 333px;
+    }
+    .linkNavigationFooterFirst{
+        margin-top: 45px;
+    }
+    .linkNavigationFooter {
+        line-height: 1.1;
+    }
+    .locationBlock{
+        margin-top: -60px; 
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+    .textFooter1{
+        margin-top: 45px;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .textFooter2{
+        font-size: 17px;
+        line-height: 20px;
+        text-align: right;
+        letter-spacing: 0.02em;
+    }
+    .callYouBack{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .contactsBlockFooter{
+        font-size: 25px;
+        line-height: 42px;
+    }
+    .imgFooter{
+        margin-top: 40px;
+        margin-left: 540px;
+    }
+    .mail{
+        margin-right: 110px; 
+    }
 }
+
+
 
 
 
