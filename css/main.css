@@ -783,9 +783,11 @@ footer {
 
 
 @media (min-width: 768px) {
-body{
-    margin-left: -40px;                                                /*!!!!!!!!!!!!!!!!!*/
-}
+    .containerFixed{
+        max-width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 .provideChernivtsi {
     font-size: 48px;
     line-height: 60px;
@@ -864,9 +866,6 @@ body{
 .catalogBlock img{
     width: 355px;
     height: 245px;
-}
-.twoRow {
-    margin-left: 18px;
 }
 .showAllBlock{
     width: 188px;
@@ -974,7 +973,97 @@ body{
 
 
 
+@media (min-width: 1199.98px) {
+    .containerFixed{
+        max-width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+    .provideChernivtsi{
+        font-size: 59px;
+        line-height: 70px;
+        letter-spacing: 0.02em;
+    }
+    .mother_with_child{
+        background: url("../img/mother_with_childMedium.png");
+        position: absolute;
+        top: 95px;
+        right: 0px;
+        width: 772px;
+        height: 509px;
+        z-index: -2;
+    }
+    .contentText{
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: 0.013em;
+    }
+    .quickConsultationText1{
+        line-height: 25px;
+        letter-spacing: 0.013em;
+    }
+    .headlines{
+        margin-top: 80px;
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: 0.07em;
+    }
+    .thatsWhyWeText{
+        margin-top: 21px;
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: 0.013em;
+    }
+    .headlinesOne{
+        margin-top: 80px;
+        margin-bottom: 34px;
+    }
+    .thatsWhyWeBlock1{
+        margin-left: -40px;
+    }
+    .thatsWhyWeBlock2{
+        margin-left: 75px;
+    }   
+    .thatsWhyWeBlock3{
+        margin-left: 100px;
+        width: 275px;
+    }
+    .catalogText{
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+.catalogBlock{
+    margin-top: 34px;
+    width: 289px;
+    height: 305px;
+} 
+.catalogBlock img{
+    width: 289px;
+    height: 305px;
+}
+.catalogPrices{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.013em;
+}
+ .allAtTheAddressBlock{
+    margin-top: 35px;
+    width: 289px;
+    height: 320px;  
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+.showAllBlock{
+    margin-top: 40px;
+}
+   
 
+    
+}
 
 
 
@@ -982,6 +1071,11 @@ body{
 
 
 @media (min-width: 1399.98px) {
+.containerFixed{
+    max-width: 100%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
 .provideChernivtsi {
     margin-top: 75px;
     font-size: 59px;
@@ -999,157 +1093,170 @@ body{
 .contentTextH3 {
     line-height: 30px;
 }   
-    .mother_with_child{
-        background: url("../img/mother_with_childBig.png");
-        position: absolute;
-        top: 136px;
-        right: 0px;
-        width: 1028px;
-        height: 677px;
-        z-index: -2;
-    }
-    .headlines{
-        margin-top: 128px;
-        margin-bottom: 50px;
-        font-size: 59px;
-        line-height: 70px;
-        letter-spacing: 0.07em;
-    }
-    .headlinesOne{
-        margin-top: 275px;
-    }
-    .thatsWhyWeText{
-        margin-top: 14px;
-        font-size: 20px;
-        line-height: 30px;
-        letter-spacing: 0.013em;
-    }
-    .catalogBlock{
-        margin-top: 14px;
-        width: 309px;
-        height: 327px;
-    } 
-    .catalogBlock img{
-        width: 309px;
-        height: 245px;
-    }
-    .catalogText{
-        font-size: 17px;
-        line-height: 20px;
-        letter-spacing: 0.02em;
-    }
-    .catalogPrice{
-        font-size: 18px;
-        line-height: 25px;
-        letter-spacing: 0.013em;
-    }
-    .twoRow{
-        margin-left: 0px;
-    }
-    .showAllBlock{
-        margin-top: 40px;
-    }
-    .SaleBlock{
-        font-size: 20px;
-        line-height: 30px;
-        letter-spacing: 0.013em; 
-    }
-
-    .logoSwissKrono{
-        margin-left: -60px; 
-        width: 37px;
-        height: 37px;
-    }
-    .swissKrono{
-        width: 202px;
-        height: 23px;
-    }
-    .kronotex{
-        width: 207px;
-        height: 56px;
-    }
-    .e_and_rectangle{
-        width: 205px;
-        height: 61px;
-    }
-    .myFloor{
-        width: 208px;
-        height: 48px;
-    }
-    .reviews{
-        width: 309px;
-        height: 550px; 
-    }
-    .contactsBlock{
-        font-size: 48px;
-        line-height: 60px;
-        letter-spacing: 0.07em;
-    }
-    .openingHours{
-        margin-top: 60px;
-        font-size: 20px;
-        line-height: 30px;
-        letter-spacing: 0.013em;
-    }
-    .viber{
-        margin-left: 350px;
-        margin-top: 25px;
-    }
-    .insta{
-        margin-left: 450px;
-        margin-top: -80px; 
-    }
-    .quickConsultation2{
-        margin-left: 120px;
-    }
-    .warehouse{
-        font-size: 25px;
-        line-height: 32px;
-        letter-spacing: 0.013em;
-    }
-    footer{
-        background: url("../img/footerBig.png");
-        min-height: 333px;
-    }
-    .linkNavigationFooterFirst{
-        margin-top: 45px;
-    }
-    .linkNavigationFooter {
-        line-height: 1.1;
-    }
-    .locationBlock{
-        margin-top: -60px; 
-        font-size: 17px;
-        line-height: 20px;
-        letter-spacing: 0.02em;
-    }
-    .textFooter1{
-        margin-top: 45px;
-        font-size: 25px;
-        line-height: 32px;
-    }
-    .textFooter2{
-        font-size: 17px;
-        line-height: 20px;
-        text-align: right;
-        letter-spacing: 0.02em;
-    }
-    .callYouBack{
-        font-size: 18px;
-        line-height: 25px;
-    }
-    .contactsBlockFooter{
-        font-size: 25px;
-        line-height: 42px;
-    }
-    .imgFooter{
-        margin-top: 40px;
-        margin-left: 540px;
-    }
-    .mail{
-        margin-right: 110px; 
-    }
+.mother_with_child{
+    background: url("../img/mother_with_childBig.png");
+    position: absolute;
+    top: 136px;
+    right: 0px;
+    width: 1028px;
+    height: 677px;
+    z-index: -2;
 }
+.headlines{
+    margin-top: 128px;
+    margin-bottom: 50px;
+    font-size: 59px;
+    line-height: 70px;
+    letter-spacing: 0.07em;
+}
+.headlinesOne{
+    margin-top: 275px;
+}
+.thatsWhyWeText{
+    margin-top: 14px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.013em;
+}
+.catalogBlock{
+    margin-top: 14px;
+    width: 309px;
+    height: 327px;
+    margin-bottom: 30px;
+} 
+.catalogBlock img{
+    width: 309px;
+    height: 245px;
+}
+.catalogText{
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+.catalogPrice{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.013em;
+}
+
+.showAllBlock{
+    margin-top: 40px;
+}
+.SaleBlock{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.013em; 
+}
+
+.logoSwissKrono{
+    margin-left: -60px; 
+    width: 37px;
+    height: 37px;
+}
+.swissKrono{
+    width: 202px;
+    height: 23px;
+}
+.kronotex{
+    width: 207px;
+    height: 56px;
+}
+.e_and_rectangle{
+    width: 205px;
+    height: 61px;
+}
+.myFloor{
+    width: 208px;
+    height: 48px;
+}
+.reviews{
+    width: 309px;
+    height: 550px; 
+}
+.contactsBlock{
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.07em;
+}
+.openingHours{
+    margin-top: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.013em;
+}
+.viber{
+    margin-left: 350px;
+    margin-top: 25px;
+}
+.insta{
+    margin-left: 450px;
+    margin-top: -80px; 
+}
+.quickConsultation2{
+    margin-left: 120px;
+}
+.warehouse{
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
+}
+footer{
+    background: url("../img/footerBig.png");
+    min-height: 333px;
+}
+.linkNavigationFooterFirst{
+    margin-top: 45px;
+}
+.linkNavigationFooter {
+    line-height: 1.1;
+}
+.locationBlock{
+    margin-top: -60px; 
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+.textFooter1{
+    margin-top: 45px;
+    font-size: 25px;
+    line-height: 32px;
+}
+.textFooter2{
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.02em;
+}
+.callYouBack{
+    font-size: 18px;
+    line-height: 25px;
+}
+.contactsBlockFooter{
+    font-size: 25px;
+    line-height: 42px;
+}
+.imgFooter{
+    margin-top: 40px;
+    margin-left: 540px;
+}
+.mail{
+    margin-right: 110px; 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
