@@ -41,3 +41,17 @@ var maskOptions2 = {
     lazy: false
 } 
 var mask2 = new IMask(element2, maskOptions2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -96,6 +96,8 @@ nav {
 }
 
 .navBurger.active {
+    top: 10px;
+    right: 30px;
     position: fixed;
     background: transparent;
     background-clip: content-box;
@@ -122,8 +124,6 @@ nav {
     background: #4A4A4A;
     top: 0;
     right: 0;
-    width: 80%;
-    height: auto;
     -webkit-transform-origin: right top;
           transform-origin: right top;
     -webkit-transform: scale(0);
@@ -156,10 +156,9 @@ nav {
 }
 
 .overlayMenu ul li a {
-    margin-left: -20px;
+    margin-top: 20px;
     display: inline-block;
     text-decoration: none;
-    padding: 10px;
     font-family: Montserrat;
     font-size: 17px;
     letter-spacing: 0.02em;
@@ -182,7 +181,7 @@ nav {
 .phoneBlock {
     display: inline-block;
     margin-top: 83px;
-    margin-left: 27px;
+    margin-left: 26px;
     font-family: Montserrat;
     font-size: 17px;
     line-height: 30px;
@@ -198,6 +197,30 @@ nav {
     letter-spacing: 0.02em;
     color: #E7E7E7;
 }
+
+.locationBlockOverlay {
+    padding: 15px 26px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #E7E7E7;
+}
+
+.navMenu {
+    margin-top: 30px;
+    display: flex;
+}
+
+.navMenu a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #4A4A4A;
+}  
 
 .locationText {
     color: #BEBEBE;
@@ -217,8 +240,6 @@ nav {
 .colorLetter {
     color: #FFCA0F;
 }
-
-
 
 .contentText {
     font-family: Montserrat;
@@ -431,13 +452,11 @@ label {
     color: #FFCA0F;
 }
 
-
 .allAtTheAddressBlock {
     width: 100%;
     height: 148px;
     background: #777777;
 }
-
 
 .allAtTheAddress {
     margin-top: 10px;
@@ -777,12 +796,12 @@ footer {
 
 
 
-@media (min-width: 768px) {
-    .containerFixed{
+@media (min-width: 768px) { 
+.containerFixed{
         max-width: 100%;
         padding-right: 20px;
         padding-left: 20px;
-    }
+}
 .provideChernivtsi {
     font-size: 48px;
     line-height: 60px;
@@ -1007,66 +1026,65 @@ footer {
 
 
 @media (min-width: 1199.98px) {
-    .containerFixed{
-        max-width: 100%;
-        padding-right: 30px;
-        padding-left: 30px;
-    }
-    
-    .provideChernivtsi{
-        font-size: 59px;
-        line-height: 70px;
-        letter-spacing: 0.02em;
-    }
-    .mother_with_child{
-        background: url("../img/mother_with_childMedium.png");
-        position: absolute;
-        top: 95px;
-        right: 0px;
-        width: 772px;
-        height: 509px;
-        z-index: -2;
-    }
-    .contentText{
-        font-size: 22px;
-        line-height: 32px;
-        letter-spacing: 0.013em;
-    }
-    .quickConsultationText1{
-        line-height: 25px;
-        letter-spacing: 0.013em;
-    }
-    .headlines{
-        margin-top: 80px;
-        font-size: 48px;
-        line-height: 60px;
-        letter-spacing: 0.07em;
-    }
-    .thatsWhyWeText{
-        margin-top: 21px;
-        font-size: 22px;
-        line-height: 32px;
-        letter-spacing: 0.013em;
-    }
-    .headlinesOne{
-        margin-top: 80px;
-        margin-bottom: 34px;
-    }
-    .thatsWhyWeBlock1{
-        margin-left: -40px;
-    }
-    .thatsWhyWeBlock2{
-        margin-left: 75px;
-    }   
-    .thatsWhyWeBlock3{
-        margin-left: 100px;
-        width: 275px;
-    }
-    .catalogText{
-        font-size: 17px;
-        line-height: 20px;
-        letter-spacing: 0.02em;
-    }
+.containerFixed{
+    max-width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.provideChernivtsi{
+    font-size: 59px;
+    line-height: 70px;
+    letter-spacing: 0.02em;
+}
+.mother_with_child{
+    background: url("../img/mother_with_childMedium.png");
+    position: absolute;
+    top: 95px;
+    right: 0px;
+    width: 772px;
+    height: 509px;
+    z-index: -2;
+}
+.contentText{
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
+}
+.quickConsultationText1{
+    line-height: 25px;
+    letter-spacing: 0.013em;
+}
+.headlines{
+    margin-top: 80px;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.07em;
+}
+.thatsWhyWeText{
+    margin-top: 21px;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
+}
+.headlinesOne{
+    margin-top: 80px;
+    margin-bottom: 34px;
+}
+.thatsWhyWeBlock1{
+    margin-left: -40px;
+}
+.thatsWhyWeBlock2{
+    margin-left: 75px;
+}   
+.thatsWhyWeBlock3{
+    margin-left: 100px;
+    width: 275px;
+}
+.catalogText{
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
 .catalogBlock{
     margin-top: 34px;
     width: 289px;
@@ -1090,26 +1108,26 @@ footer {
     line-height: 20px;
     letter-spacing: 0.02em;
 }
-    .showAllBlock{
-        margin-top: 40px;
-        width: 239px;
-        height: 46px;
-    }
-    .showAll{
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 32px;
-        letter-spacing: 0.013em;
-    } 
-    .SaleBlock{
-        margin-top: 41px;
-        font-size: 22px;
-        line-height: 32px;
-        letter-spacing: 0.013em;
-    }
-    .brandyLogo{
-        margin-top: 5rem;
-    }
+.showAllBlock{
+    margin-top: 40px;
+    width: 239px;
+    height: 46px;
+}
+.showAll{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
+} 
+.SaleBlock{
+    margin-top: 41px;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
+}
+.brandyLogo{
+    margin-top: 5rem;
+}
 .logoSwissKrono{
     margin-left: -55px;
     width: 34px;
@@ -1139,16 +1157,16 @@ footer {
     width: 289px;
     height: 514px; 
 }
-    .headlines{
-        font-size: 48px;
-        line-height: 60px;
-        letter-spacing: 0.07em;
-    }
-    .contactsBlock{
-        font-size: 48px;
-        line-height: 60px;
-        letter-spacing: 0.07em;
-    }
+.headlines{
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.07em;
+}
+.contactsBlock{
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.07em;
+}
 .openingHours{
     margin-top: 60px;
     font-size: 20px;
@@ -1176,19 +1194,17 @@ footer {
     line-height: 32px;
     letter-spacing: 0.013em;
 }
-    .warehouse{
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 32px;
-        letter-spacing: 0.013em;
-        margin-bottom: 83px;
-    }
-    
+.warehouse{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
+    margin-bottom: 83px;
+}  
 footer{
     background: url("../img/footerBig.png");
     min-height: 244px;
 }
-
 .linkNavigationFooter{
     margin-top: 16px;
     font-size: 18px;
@@ -1198,34 +1214,34 @@ footer{
 .linkNavigationFooterFirst{
     margin-top: 35px;
 }
-    .textFooter1{
-        margin-top: 29px;
-        font-size: 25px;
-        line-height: 32px;
-    }   
-    .textFooter2{
-        margin-top: -5px;
-        font-size: 17px;
-        line-height: 20px;
-    }
-    .contactsBlockFooter{
-        margin-top: 5px;
-        font-size: 25px;
-        line-height: 32px;
-    }
-    .imgFooter{
-        margin-top: -5px;
-        margin-left: 815px;
-    }
-    .mail{
-        margin-top: 63px;
-    }
-    .locationBlock{
-        margin-top: -60px;
-        margin-left: 310px;
-        font-size: 17px;
-        line-height: 20px;
-    }
+.textFooter1{
+    margin-top: 29px;
+    font-size: 25px;
+    line-height: 32px;
+}   
+.textFooter2{
+    margin-top: -5px;
+    font-size: 17px;
+    line-height: 20px;
+}
+.contactsBlockFooter{
+    margin-top: 5px;
+    font-size: 25px;
+    line-height: 32px;
+}
+.imgFooter{
+    margin-top: -5px;
+    margin-left: 815px;
+}
+.mail{
+    margin-top: 63px;
+}
+.locationBlock{
+    margin-top: -60px;
+    margin-left: 310px;
+    font-size: 17px;
+    line-height: 20px;
+}
 }
 
 
@@ -1240,7 +1256,6 @@ footer{
 
 
 
-/*!!!!!!!!!*/
 @media (min-width: 1399.98px) {
     .containerFixed{
         max-width: 100%;
@@ -1326,7 +1341,6 @@ footer{
     line-height: 30px;
     letter-spacing: 0.013em; 
 }
-
 .logoSwissKrono{
     margin-left: -60px; 
     width: 37px;
@@ -1432,8 +1446,4 @@ footer{
     margin-right: 110px; 
 }
 }
-
-
-
-
 
