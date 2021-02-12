@@ -491,11 +491,6 @@ label {
     width: 131px;
     height: 35px;
 }
-
-
-
-
-
 .reviews {
     margin-top: 28px;
 }
@@ -886,6 +881,26 @@ footer {
     font-size: 22px;
     line-height: 32px;
     letter-spacing: 0.013em;
+}   
+.logoSwissKrono{
+    width: 23px;
+    height: 23px;
+}
+.swissKrono{
+    width: 126px;
+    height: 15px;
+}
+.kronotex{
+    width: 156px;
+    height: 42px;
+}
+.e_and_rectangle{
+    width: 153px;
+    height: 47px;
+}
+.myFloor{
+    width: 156px;
+    height: 36px;
 }
 .reviews{
     width: 355px;
@@ -966,6 +981,24 @@ footer {
     letter-spacing: 0.02em;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1057,12 +1090,142 @@ footer {
     line-height: 20px;
     letter-spacing: 0.02em;
 }
-.showAllBlock{
-    margin-top: 40px;
+    .showAllBlock{
+        margin-top: 40px;
+        width: 239px;
+        height: 46px;
+    }
+    .showAll{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.013em;
+    } 
+    .SaleBlock{
+        margin-top: 41px;
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: 0.013em;
+    }
+    .brandyLogo{
+        margin-top: 5rem;
+    }
+.logoSwissKrono{
+    margin-left: -55px;
+    width: 34px;
+    height: 35px;
 }
-   
-
+.swissKrono{
+    width: 186px;
+    height: 22px;
+}
+.kronotex{
+    margin-left: 20px;
+    width: 189px;
+    height: 51px;
+}
+.e_and_rectangle{
+    margin-left: 65px;
+    width: 187px;
+    height: 57px;
+}
+.myFloor{
+    margin-left: 90px;
+    width: 190px;
+    height: 44px;
+}
+.reviews{
+    margin-top: 50px;
+    width: 289px;
+    height: 514px; 
+}
+    .headlines{
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: 0.07em;
+    }
+    .contactsBlock{
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: 0.07em;
+    }
+.openingHours{
+    margin-top: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.013em;
+}
+.viber{
+    margin-left: 330px;
+    margin-top: 25px;
+}
+.insta{
+    margin-left: 400px;
+    margin-top: -80px; 
+}
+.quickConsultation2{
+    margin-left: 80px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.013em;
+}
+.mapsText{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
+}
+    .warehouse{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.013em;
+        margin-bottom: 83px;
+    }
     
+footer{
+    background: url("../img/footerBig.png");
+    min-height: 244px;
+}
+
+.linkNavigationFooter{
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.013em;
+}
+.linkNavigationFooterFirst{
+    margin-top: 35px;
+}
+    .textFooter1{
+        margin-top: 29px;
+        font-size: 25px;
+        line-height: 32px;
+    }   
+    .textFooter2{
+        margin-top: -5px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .contactsBlockFooter{
+        margin-top: 5px;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .imgFooter{
+        margin-top: -5px;
+        margin-left: 815px;
+    }
+    .mail{
+        margin-top: 63px;
+    }
+    .locationBlock{
+        margin-top: -60px;
+        margin-left: 310px;
+        font-size: 17px;
+        line-height: 20px;
+    }
 }
 
 
@@ -1070,12 +1233,21 @@ footer {
 
 
 
+
+
+
+
+
+
+
+/*!!!!!!!!!*/
 @media (min-width: 1399.98px) {
-.containerFixed{
-    max-width: 100%;
-    padding-right: 15%;
-    padding-left: 15%;
-}
+    .containerFixed{
+        max-width: 100%;
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    
 .provideChernivtsi {
     margin-top: 75px;
     font-size: 59px;
@@ -1138,9 +1310,16 @@ footer {
     line-height: 25px;
     letter-spacing: 0.013em;
 }
-
 .showAllBlock{
     margin-top: 40px;
+    width: 236px;
+    height: 55px;
+}
+.showAll{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.013em;
 }
 .SaleBlock{
     font-size: 20px;
@@ -1194,6 +1373,16 @@ footer {
 }
 .quickConsultation2{
     margin-left: 120px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.013em;
+}
+.mapsText{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.013em;
 }
 .warehouse{
     font-size: 25px;
@@ -1243,46 +1432,6 @@ footer{
     margin-right: 110px; 
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
