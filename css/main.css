@@ -8,9 +8,10 @@ body{
     background: #FFFAF5;
 }
 
-nav {
-    margin-top: 11px;
-    margin-left: 10px;     
+.fixedNav {
+    padding: 16px;  
+    height: 83px;
+    background: #FFFAF5;
 }
 
 .logoBlock {
@@ -1512,4 +1513,53 @@ footer{
     margin-right: 110px; 
 }
 }
+
+
+
+
+
+
+.fixedNavigation {
+    display: flex;
+    padding: 6px 9px;
+    margin-top: -16px;
+    margin-left: 1210px;
+    width: 397px;
+    height: 26px;
+    background: rgba(74, 74, 74, 0.88);
+}
+
+.markNavigation {
+    background-image: url(../img/markNavigation.png); 
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 14px;
+}
+
+.textNavigation {
+    margin-left: 4px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.phoneNavigation1 {
+    margin-left: 37px;
+    background-image: url(../img/phoneNavigation.png);
+    width: 14px;
+}
+
+
+
+.phoneNavigation2 {
+    margin-left: 11px;
+    background-image: url(../img/phoneNavigation.png);
+    width: 14px;
+}
+
+
+
 
