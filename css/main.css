@@ -4,7 +4,6 @@
 
 
 
-
 body{
     background: #FFFAF5;
 }
@@ -55,7 +54,7 @@ nav {
     color: #BEBEBE;
 }
 
-.navBurger {                                                           
+.navBurger {    
     margin-left: 15px;
     margin-top: 20px;
     cursor: pointer;
@@ -249,13 +248,10 @@ nav {
     margin-top: 1px;
     margin-bottom: 10px; 
     line-height: 2.01;
+    font-weight: 400;
 }
 
-.mother_with_child{
-    width: 100%;
-    height: 215px;
-    object-fit: cover;
-}
+
 
 .quickConsultation1 {
     color: black;
@@ -565,14 +561,7 @@ iframe {
     letter-spacing: 0.02em;
     color: #BEBEBE;
 }
-footer {
-    position: relative;
-    margin-top: 47px;
-    max-height: 570px;
-    background: url("../img/footer320.png");
-    width: 100%;
-    object-fit: cover;
-}
+
 
 .linkNavigationFooter {
     text-decoration: none;
@@ -703,7 +692,7 @@ footer {
     display: block;
     width: 20px;
     height: 20px;
-    line-height: 20px;
+    line-height: 13px;
     text-align: center;
     border-radius: 50%;
     cursor: pointer;
@@ -794,13 +783,28 @@ footer {
 
 
 
+@media (min-width: 320px) {
+.mother_with_child{
+    background-image: url("../img/mother_with_child320.png");
+    width: 100%;
+    max-width: 320px; 
+    height: 215px;
+}
+footer {
+    position: relative;
+    margin-top: 47px;
+    background: url("../img/footer320.png") no-repeat center/cover;
+}
+}
+
+
 
 
 @media (min-width: 768px) { 
 .containerFixed{
-        max-width: 100%;
-        padding-right: 20px;
-        padding-left: 20px;
+    max-width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .provideChernivtsi {
     font-size: 48px;
@@ -812,7 +816,13 @@ footer {
     margin-bottom: 22px;
     font-size: 22px;
     letter-spacing: 0.013em;
-}  
+}
+.mother_with_child{
+    background-image: url("../img/mother_with_child768.png");
+    max-width: 768px;
+    height: 486px;
+    width: 100%;
+}
 .quickConsultation1{
     margin-top: 32px;
     width: 309px;
@@ -953,8 +963,12 @@ footer {
     line-height: 30px;
     letter-spacing: 0.013em;
 }
+footer{
+    background-image: url(../img/footer768.png) no-repeat center/cover;
+    max-height: 317px;
+}
 .linkNavigationFooter{
-    line-height: 30px;
+    line-height: 29px;
 }
 .textFooter1{
     margin-top: 13px;
@@ -963,12 +977,13 @@ footer {
     letter-spacing: 0.013em;
 }
 .textFooter2{
-    top: 54px;
+    position: absolute;
+    top: 45px;
     right: 20px;
     text-align: right;
 }
 .contactsBlockFooter{
-    margin-top: 30px; 
+    margin-top: 20px; 
     font-size: 25px;
     line-height: 32px;
     text-align: right;
@@ -984,20 +999,18 @@ footer {
 }
 .imgFooter{
     position: absolute;
-    margin-left: 420px;
+    top: 155px;
+    margin-left: 445px;
 }
-.locationBlock{   
-    padding: 20px 0px;
+.locationBlock{ 
+    padding: 15px 0px;
     margin-bottom: 0px;
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.02em;
 }
-.locationBlock{
-    margin-top: 20px;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
+.mail{
+    margin-top: 55px;
 }
 }
 
@@ -1005,7 +1018,13 @@ footer {
 
 
 
-
+@media (min-width: 1024px){
+.containerFixed{
+    max-width: 100%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+}
 
 
 
@@ -1037,12 +1056,12 @@ footer {
     letter-spacing: 0.02em;
 }
 .mother_with_child{
-    background: url("../img/mother_with_childMedium.png");
+    background-image: url("../img/mother_with_child1280.png");
     position: absolute;
     top: 95px;
     right: 0px;
     width: 772px;
-    height: 509px;
+    min-height: 509px;
     z-index: -2;
 }
 .contentText{
@@ -1248,6 +1267,16 @@ footer{
 
 
 
+@media (min-width: 1440px){
+.containerFixed{
+    max-width: 100%;
+    padding-right: 0%;
+    padding-left: 12.5%;
+}
+.mother_with_child{
+    right: 1%;
+}
+}
 
 
 
@@ -1255,14 +1284,12 @@ footer{
 
 
 
-
-@media (min-width: 1399.98px) {
-    .containerFixed{
-        max-width: 100%;
-        padding-right: 15%;
-        padding-left: 15%;
-    }
-    
+@media (min-width: 1800px) {
+.containerFixed{
+    max-width: 100%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
 .provideChernivtsi {
     margin-top: 75px;
     font-size: 59px;
@@ -1281,12 +1308,10 @@ footer{
     line-height: 30px;
 }   
 .mother_with_child{
-    background: url("../img/mother_with_childBig.png");
-    position: absolute;
-    top: 136px;
-    right: 0px;
-    width: 1028px;
-    height: 677px;
+    background: url("../img/mother_with_child1920.png");
+    right: 15%;
+    min-width: 800px;
+    min-height: 579px;
     z-index: -2;
 }
 .headlines{
@@ -1326,6 +1351,7 @@ footer{
     letter-spacing: 0.013em;
 }
 .showAllBlock{
+    padding: 7px 5px;
     margin-top: 40px;
     width: 236px;
     height: 55px;

@@ -60,11 +60,11 @@
             </div>
             <div class="col-8 d-none d-sm-block"><!--кол-8 от 768 до ..навбургер навигация--> 
                 <div class="row navMenu">
-                    <a class="col">каталог</a>
-                    <a class="col">акції</a>
-                    <a class="col">відгуки</a>
-                    <a class="col">бренди </a>    
-                    <a class="col">контакти</a>
+                    <a href="#catolog" class="col">каталог</a>
+                    <a href="#Sale" class="col">акції</a>
+                    <a href="#reviews" class="col">відгуки</a>
+                    <a href="#brands" class="col">бренди </a>    
+                    <a href="#contacts" class="col">контакти</a>
                 </div> 
             </div>    
         </div> 
@@ -84,8 +84,8 @@
            <span class="colorLetter">—</span> Якісне обслуговування клієнтів
        </div>
     </div>
- </div>   
-    <img class="mother_with_child" src="img/mother_with_childSmall.png" alt="mother_with_child">
+</div> 
+<img class="rounded mx-auto d-block mother_with_child">
 <div class="container containerFixed">
    <div class="row">
        <button type="button" class="btn btn-outline-warning quickConsultation1">
@@ -120,7 +120,7 @@
             </div>
         </div>
     </div>
-    <div class="row row-cols-1">
+    <div class="row row-cols-1 ">
         <div class="headlines" id="catolog">
             <span class="colorLetter">К</span>аталог
         </div>
@@ -399,7 +399,8 @@
             <div class="popup-content">
                 <label for="popupCheckboxOne" class="popup-closer">&#215;</label>
                 <div class="text-center callYouBack">Ми передзвонимо</div>
-                    <input class="name" name="name" type="text" placeholder="Як до вас звертатись?">
+                    <input class="name" name="name" type="text" placeholder="Як до вас звертатись?" 
+                    oninput="this.value=this.value.replace(/[^а-яА-ЯіІ\s]/g,'');" maxlength="40">
                     <input name="phone" placeholder="+380" id="phone">
                 <button type="button" class="btn btn-outline-warning quickConsultation">
                     <div class="confirmText">Підтвердити</div>
