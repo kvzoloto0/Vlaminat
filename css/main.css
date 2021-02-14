@@ -255,6 +255,7 @@ body{
 
 
 .quickConsultation1 {
+    border-width: 3px;
     color: black;
     display: flex;
     flex-direction: row;
@@ -282,7 +283,7 @@ body{
     text-align: left;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin: 14px 10px;
+    margin: 13px 10px;
 }
 
 .phone_icon {
@@ -296,7 +297,7 @@ body{
     line-height: 14px;
     text-align: left;
     letter-spacing: 0.02em;
-    margin: 14px 10px;
+    margin: 13px 10px;
     color: #4A4A4A;
 }
 
@@ -306,6 +307,7 @@ body{
 }
 
 .quickConsultation2 {
+    border-width: 3px;
     color: black;
     display: flex;
     flex-direction: row;
@@ -319,6 +321,7 @@ body{
 }
 
 .quickConsultation3 {
+    border-width: 3px;
     color: black;
     display: flex;
     flex-direction: row;
@@ -717,15 +720,15 @@ iframe {
 
 .popup-closer {                                       /*кнопка закритые*/
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 8px;
+    right: 8px;
     color: #999;
-    font-size: 20px;
+    font-size: 30px;
     border: 1px solid #999;
     display: block;
-    width: 20px;
-    height: 20px;
-    line-height: 13px;
+    width: 25px;
+    height: 25px;
+    line-height: 16px;
     text-align: center;
     border-radius: 50%;
     cursor: pointer;
@@ -767,6 +770,7 @@ iframe {
 }
 
 .quickConsultation {
+    border-width: 3px;
     color: black;
     display: flex;
     flex-direction: row;
@@ -1340,6 +1344,24 @@ footer{
     font-size: 17px;
     line-height: 20px;
 }
+.popup-content {
+    width: 50%;
+}
+.callYouBack{
+    margin-left: 20px;
+}
+.popup-content input{
+    margin-left: 135px;
+}
+.quickConsultation{
+    margin-left: 180px;
+}
+.textUnderButton{
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 500px;
+    font-size: 17px;
+}
 }
 
 
@@ -1568,6 +1590,34 @@ footer{
 .mail{
     margin-right: 110px; 
 }
+    
+.popup-content {
+    width: 50%;
+    height: 467px;
+}
+.callYouBack{
+    margin-left: -250px;
+    font-size: 48px;
+    line-height: 70px;
+}
+.popup-content input{
+    width: 80%;
+    margin-left: 80px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.quickConsultation{
+    margin-left: 80px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.textUnderButton{
+    margin-top: 25px;
+    margin-left: 80px;
+    width: 500px;
+    font-size: 17px;
+    line-height: 20px;
+}
 }
 
 
@@ -1623,6 +1673,8 @@ footer{
 nav {
     margin-top: 16px;
 }
+
+
 
 
 
