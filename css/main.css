@@ -489,24 +489,38 @@ label {
     letter-spacing: 0.02em;
 }
 
+.SaleBlockGreyColour {
+    color: #777777;
+}
+
 .brandyLogo {
     margin-top: 2.25rem;
 }
 
-.logoSwissKrono {
-    width: 20px;
-    height: 19px;
-}
-
 .swissKrono {
-    width: 107px;
-    height: 12px;
+    background-image: url(../img/1brands320.png);
+    width: 132px;
+    height: 31px;
 }
 
 .kronotex {
+    background-image: url(../img/2brands320.png);
     width: 131px;
     height: 35px;
 }
+
+.e_and_rectangle{
+    background-image: url(../img/3brands320.png);
+    width: 132px;
+    height: 39px;
+}
+
+.myFloor{
+    background-image: url(../img/4brands320.png);
+    width: 132px;
+    height: 32px;
+}
+
 .reviews {
     margin-top: 28px;
 }
@@ -924,23 +938,24 @@ footer {
     line-height: 32px;
     letter-spacing: 0.013em;
 }   
-.logoSwissKrono{
-    width: 23px;
-    height: 23px;
-}
 .swissKrono{
-    width: 126px;
-    height: 15px;
+    background-image: url(../img/1brands768.png);
+    width: 157px;
+    height: 38px;
 }
 .kronotex{
+    background-image: url(../img/2brands768.png);
     width: 156px;
     height: 42px;
 }
 .e_and_rectangle{
-    width: 153px;
+    margin-top: -10px;
+    background-image: url(../img/3brands768.png);
+    width: 156px;
     height: 47px;
 }
 .myFloor{
+    background-image: url(../img/4brands768.png);
     width: 156px;
     height: 36px;
 }
@@ -1179,26 +1194,25 @@ footer{
 .brandyLogo{
     margin-top: 5rem;
 }
-.logoSwissKrono{
-    margin-left: -55px;
-    width: 34px;
-    height: 35px;
-}
 .swissKrono{
-    width: 186px;
-    height: 22px;
+    background-image: url(../img/1brands1280.png);
+    width: 230px;
+    height: 56px;
 }
 .kronotex{
+    background-image: url(../img/2brands1280.png);
     margin-left: 20px;
     width: 189px;
-    height: 51px;
+    height: 52px;
 }
 .e_and_rectangle{
+    background-image: url(../img/3brands1280.png);
     margin-left: 65px;
-    width: 187px;
-    height: 57px;
+    width: 190px;
+    height: 56px;
 }
 .myFloor{
+    background-image: url(../img/4brands1280.png);
     margin-left: 90px;
     width: 190px;
     height: 44px;
@@ -1402,24 +1416,23 @@ footer{
     line-height: 30px;
     letter-spacing: 0.013em; 
 }
-.logoSwissKrono{
-    margin-left: -60px; 
-    width: 37px;
-    height: 37px;
-}
 .swissKrono{
-    width: 202px;
-    height: 23px;
+    background-image: url(../img/1brands1920.png);
+    width: 250px;
+    height: 60px;
 }
 .kronotex{
+    background-image: url(../img/2brands1920.png);
     width: 207px;
     height: 56px;
 }
 .e_and_rectangle{
-    width: 205px;
-    height: 61px;
+    background-image: url(../img/3brands1920.png);
+    width: 207px;
+    height: 60px;
 }
 .myFloor{
+    background-image: url(../img/4brands1920.png);
     width: 208px;
     height: 48px;
 }
@@ -1520,10 +1533,10 @@ footer{
 
 
 .fixedNavigation {
+    margin-left: 64%;
+    margin-top: 0px;
     display: flex;
     padding: 6px 9px;
-    margin-top: -16px;
-    margin-left: 1210px;
     width: 397px;
     height: 26px;
     background: rgba(74, 74, 74, 0.88);
@@ -1561,5 +1574,11 @@ footer{
 }
 
 
+
+
+
+nav {
+    margin-top: 16px;
+}
 
 
