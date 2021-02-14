@@ -364,11 +364,20 @@ body{
     margin-right: auto; 
 }
 
-.truckImg {
-    margin-top: 2.25rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.percent {
+    background-image: url(../img/percent320.png);
+    width: 34px;
+}
+
+.assortment {
+    background-image: url(../img/assortment320.png);
+    width: 34px;
+}
+
+.truck {
+    background-image: url(../img/truck320.png);
+    width: 52px;
+    height: 34px;
 }
 
 .catalogBlock {
@@ -537,8 +546,17 @@ label {
     opacity: 0.9;
 }
 
+.viber{
+    background-image: url(../img/viber320.png);
+    width: 27px;
+    height: 29px;
+}
+
 .insta {
     margin-left: 11px;
+    background-image: url(../img/insta320.png);
+    width: 27px;
+    height: 28px;
 }
 
 .openingHours {
@@ -880,9 +898,18 @@ footer {
     letter-spacing: 0.013em;
 }   
 .thatsWhyWeImg{
+    margin-top: 62px;
+}
+.percent {
+    background-image: url(../img/percent768.png);
     width: 50px;
 }
-.truckImg {
+.assortment {
+    background-image: url(../img/assortment768.png);
+    width: 50px;
+}
+.truck {
+    background-image: url(../img/truck768.png);
     width: 76px;
     height: 50px;
 }
@@ -967,13 +994,16 @@ footer {
     font-size: 40px;
     line-height: 50px;
     letter-spacing: 0.07em;
-}
+}   
 .viber{
+    background-image: url(../img/viber768.png);
     width: 50px;
     height: 54px;
 }
 .insta{
+    background-image: url(../img/insta768.png);
     width: 50px;
+    height: 51px;
 }
 .openingHours{
     font-size: 20px;
@@ -1237,7 +1267,7 @@ footer{
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.013em;
-}
+}  
 .viber{
     margin-left: 330px;
     margin-top: 25px;
@@ -1388,6 +1418,19 @@ footer{
 .catalogBlock img{
     width: 309px;
     height: 245px;
+}
+.percent {
+    background-image: url(../img/percent1920.png);
+    width: 60px;
+}
+.assortment {
+    background-image: url(../img/assortment1920.png);
+    width: 60px;
+}
+.truck {
+    background-image: url(../img/truck1920.png);
+    width: 90px;
+    height: 60px;
 }
 .catalogText{
     font-size: 17px;
@@ -1580,5 +1623,7 @@ footer{
 nav {
     margin-top: 16px;
 }
+
+
 
 
