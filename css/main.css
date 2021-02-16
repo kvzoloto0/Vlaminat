@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
 
-
-
-
 body{
     background: #FFFAF5;
+}
+
+header {
+    padding-top: 1rem;
+    position: relative;
+}
+
+section {
+    margin-top: 5rem;
 }
 
 .fixedNav {
@@ -227,7 +233,6 @@ body{
 }     
                                                                                     
 .provideChernivtsi { 
-    margin-top: 22px;
     margin-bottom: 18px;
     font-family: Montserrat;
     font-weight: bold;
@@ -836,11 +841,11 @@ footer {
 
 
 @media (min-width: 768px) { 
-.containerFixed{
+/* .containerFixed{
     max-width: 100%;
     padding-right: 20px;
     padding-left: 20px;
-}
+} */
 .provideChernivtsi {
     font-size: 48px;
     line-height: 60px;
@@ -1112,11 +1117,11 @@ footer{
 
 
 @media (min-width: 1024px){
-.containerFixed{
+/* .containerFixed{
     max-width: 100%;
     padding-right: 15%;
     padding-left: 15%;
-}
+} */
 }
 
 
@@ -1124,13 +1129,12 @@ footer{
 
 
 @media (min-width: 1199.98px) {
-.containerFixed{
+/* .containerFixed{
     max-width: 100%;
     padding-right: 30px;
     padding-left: 30px;
-}
+} */
 .provideChernivtsi{
-    margin-top: 40px;
     font-size: 59px;
     line-height: 70px;
     letter-spacing: 0.02em;
@@ -1138,7 +1142,7 @@ footer{
 .mother_with_child{
     background-image: url("../img/mother_with_child1280.png");
     position: absolute;
-    top: 105px;
+    top: 0;
     right: 0px;
     width: 772px;
     min-height: 509px;
@@ -1389,11 +1393,11 @@ footer{
 
 
 @media (min-width: 1440px){
-.containerFixed{
+/* .containerFixed{
     max-width: 100%;
     padding-right: 0%;
     padding-left: 12.5%;
-}
+} */
 .mother_with_child{
     right: 1%;
 }
@@ -1406,13 +1410,12 @@ footer{
 
 
 @media (min-width: 1800px) {
-.containerFixed{
+/* .containerFixed{
     max-width: 100%;
     padding-right: 15%;
     padding-left: 15%;
-}
+} */
 .provideChernivtsi {
-    margin-top: 75px;
     font-size: 59px;
     line-height: 70px;
     letter-spacing: 0.07em;
@@ -1650,9 +1653,9 @@ footer{
 
 
 .fixedNavigation {
-    position: fixed;
-    right: 290px;
-    top: 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
     display: flex;
     padding: 6px 9px;
     width: 397px;
@@ -1661,10 +1664,12 @@ footer{
 }
 
 .markNavigation {
-    background-image: url(../img/markNavigation.png); 
-    background-repeat: no-repeat;
     width: 10px;
     height: 14px;
+}
+
+.iconWrapper {
+    display: flex;
 }
 
 .textNavigation {
@@ -1677,26 +1682,14 @@ footer{
     color: #FFFFFF;
 }
 
-.phoneNavigation1 {
-    margin-left: 37px;
-    background-image: url(../img/phoneNavigation.png);
-    width: 14px;
+.phoneNavigation {
+    margin-left: 0.625rem;
+    align-items: center;
 }
 
-
-
-.phoneNavigation2 {
-    margin-left: 11px;
-    background-image: url(../img/phoneNavigation.png);
-    width: 14px;
-}
-
-
-
-
-
-nav {
-    margin-top: 16px;
+.navigationPhoneCell {
+    display: flex;
+    margin-left: 1rem;
 }
 
 
