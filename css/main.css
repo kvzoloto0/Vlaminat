@@ -236,7 +236,7 @@ section {
 }
 
 .locationBlock {
-    padding: 15px 0;
+    padding: 5px 0;
     font-family: Montserrat;
     font-size: 12px;
     line-height: 14px;
@@ -1339,6 +1339,7 @@ footer{
     width: 679px;
 }   
 .textFooter2{
+    margin-left: auto;
     margin-top: 38px;
     width: 164px;
     font-size: 17px;
@@ -1357,7 +1358,6 @@ footer{
 }
 .locationBlock{
     margin-top: -65px;
-    margin-left: 280px;
     font-size: 17px;
     line-height: 20px;
 }
@@ -1560,7 +1560,7 @@ footer{
     line-height: 32px;
 }
 .textFooter2{
-    margin-top: 12px;
+    margin-top: 55px;
     margin-left: auto;
     width: 309px;
     font-size: 17px;
