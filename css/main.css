@@ -1115,6 +1115,13 @@ footer{
 }
 }
 
+@media (min-width: 992px){
+    .textFooter2{
+        margin-top: 10px;
+    }
+}
+
+
 @media (min-width: 1024px){
 /*
  .containerFixed{
@@ -1198,10 +1205,10 @@ footer{
     margin-left: -40px;
 }
 .thatsWhyWeBlock2{
-    margin-left: 75px;
+    margin-left: 50px;
 }   
 .thatsWhyWeBlock3{
-    margin-left: 100px;
+    margin-left: 50px;
     width: 275px;
 }
 .catalogText{
