@@ -10,6 +10,46 @@ header {
     position: relative;
 }
 
+.fixedNavigation {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    padding: 6px 9px;
+    width: 397px;
+    height: 26px;
+    background: rgba(74, 74, 74, 0.88);
+}
+
+.markNavigation {
+    width: 10px;
+    height: 14px;
+}
+
+.iconWrapper {
+    display: flex;
+}
+
+.textNavigation {
+    margin-left: 4px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.phoneNavigation {
+    margin-left: 0.625rem;
+    align-items: center;
+}
+
+.navigationPhoneCell {
+    display: flex;
+    margin-left: 1rem;
+}
+
 section {
     margin-top: 5rem;
 }
@@ -46,14 +86,14 @@ section {
 
 .logoV {   
     margin-top: 2px;
-    margin-left: -5px;
+    margin-left: -6px;
     width: 23px;
     height: 29px;
 }
 
 .blockWithTextV {
     margin-top: -15px;
-    margin-left: 15px; 
+    margin-left: 13px; 
     font-family: Comfortaa;
     font-size: 14px;
     line-height: 17px;
@@ -294,6 +334,15 @@ section {
     margin-left: 150px;
 }
 
+.percent{
+    width: 34px;
+}
+
+.truck{
+    width: 52px;
+    height: 34px;
+}
+
 .quickConsultationText1 {
     font-family: Montserrat;
     font-size: 12px;
@@ -368,22 +417,6 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto; 
-}
-
-.percent {
-    background-image: url(../img/percent320.png);
-    width: 34px;
-}
-
-.assortment {
-    background-image: url(../img/assortment320.png);
-    width: 34px;
-}
-
-.truck {
-    background-image: url(../img/truck320.png);
-    width: 52px;
-    height: 34px;
 }
 
 .catalogBlock {
@@ -511,26 +544,22 @@ label {
     margin-top: 2.25rem;
 }
 
-.swissKrono {
-    background-image: url(../img/1brands320.png);
+.brands1 {
     width: 132px;
     height: 31px;
 }
 
-.kronotex {
-    background-image: url(../img/2brands320.png);
+.brands2 {
     width: 131px;
     height: 35px;
 }
 
-.e_and_rectangle{
-    background-image: url(../img/3brands320.png);
+.brands3{
     width: 132px;
     height: 39px;
 }
 
-.myFloor{
-    background-image: url(../img/4brands320.png);
+.brands4{
     width: 132px;
     height: 32px;
 }
@@ -552,14 +581,12 @@ label {
 }
 
 .viber{
-    background-image: url(../img/viber320.png);
     width: 27px;
     height: 29px;
 }
 
 .insta {
     margin-left: 11px;
-    background-image: url(../img/insta320.png);
     width: 27px;
     height: 28px;
 }
@@ -602,6 +629,12 @@ iframe {
     color: #BEBEBE;
 }
 
+footer {
+    background: url(../img/footer1920.png);
+    height: 570px;
+    width: 100%;
+    background-size: cover;
+}
 
 .linkNavigationFooter {
     text-decoration: none;
@@ -648,8 +681,15 @@ iframe {
     color: #FFFFFF;
 }
 
+.viberFooter {
+    width: 38px;
+    height: 38px;
+}
+
 .instaFooter {
-    margin-left: 16px;
+    width: 38px;
+    height: 38px;
+    margin-left: 1rem;
 }
 
 .mail {
@@ -662,27 +702,17 @@ iframe {
 }
 
 .imgFooter {
-    margin-top: 10px;
+    display: flex;
+    width: 38px;
+    height: 38px;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*увелечение фото*/
-
-
+/*button*/
 .popup-checkbox, .popup {
     display: none;
 }
 
-.popup {                                /*фиксирование на промежутке*/                 
+.popup {            
     position: fixed;
     z-index: 10;
     top: 0;
@@ -692,7 +722,7 @@ iframe {
     opacity: 0;
 }
 
-.popup:before {                        /*background*/
+.popup:before {
     display: block;
     content: ' ';
     position: absolute;
@@ -705,7 +735,7 @@ iframe {
     opacity: .5;
 }
 
-.popup-content {                       /*сам екран*/
+.popup-content {
     width: 100%;
     height: 403px;
     position: absolute;
@@ -722,7 +752,7 @@ iframe {
     box-sizing: border-box;
 }
 
-.popup-closer {                                       /*кнопка закритые*/
+.popup-closer {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -738,7 +768,7 @@ iframe {
     cursor: pointer;
 }
 
-.popup-checkbox:checked + .popup {                  /*когда нажал*/             
+.popup-checkbox:checked + .popup {        
     opacity: 1; 
     display: block;
 }
@@ -816,36 +846,31 @@ iframe {
     height: 100%;
 }
 
-
-
-
-
-
-
-
 @media (min-width: 320px) {
+/*
 .mother_with_child{
-    background-image: url("../img/mother_with_child320.png");
     width: 100%;
     max-width: 320px; 
     height: 215px;
 }
-footer {
-    position: relative;
-    margin-top: 47px;
-    background: url("../img/footer320.png") no-repeat center/cover;
+*/
 }
-}
-
-
-
 
 @media (min-width: 768px) { 
-/* .containerFixed{
+/*
+ .containerFixed{
     max-width: 100%;
     padding-right: 20px;
     padding-left: 20px;
-} */
+} 
+*/
+.percent{
+    width: 60px;
+}
+.truck{
+    width: 90px;
+    height: 60px;
+}
 .provideChernivtsi {
     font-size: 48px;
     line-height: 60px;
@@ -857,12 +882,13 @@ footer {
     font-size: 22px;
     letter-spacing: 0.013em;
 }
+/*
 .mother_with_child{
-    background-image: url("../img/mother_with_child768.png");
     max-width: 768px;
     height: 486px;
     width: 100%;
 }
+*/
 .quickConsultation1{
     margin-top: 32px;
     width: 309px;
@@ -907,19 +933,6 @@ footer {
 }   
 .thatsWhyWeImg{
     margin-top: 62px;
-}
-.percent {
-    background-image: url(../img/percent768.png);
-    width: 50px;
-}
-.assortment {
-    background-image: url(../img/assortment768.png);
-    width: 50px;
-}
-.truck {
-    background-image: url(../img/truck768.png);
-    width: 76px;
-    height: 50px;
 }
 .catalogText{
     font-size: 17px;
@@ -973,24 +986,20 @@ footer {
     line-height: 32px;
     letter-spacing: 0.013em;
 }   
-.swissKrono{
-    background-image: url(../img/1brands768.png);
+.brands1{
     width: 157px;
     height: 38px;
 }
-.kronotex{
-    background-image: url(../img/2brands768.png);
+.brands2{
     width: 156px;
     height: 42px;
 }
-.e_and_rectangle{
+.brands3{
     margin-top: -10px;
-    background-image: url(../img/3brands768.png);
     width: 156px;
     height: 47px;
 }
-.myFloor{
-    background-image: url(../img/4brands768.png);
+.brands4{
     width: 156px;
     height: 36px;
 }
@@ -1004,12 +1013,10 @@ footer {
     letter-spacing: 0.07em;
 }   
 .viber{
-    background-image: url(../img/viber768.png);
     width: 50px;
     height: 54px;
 }
 .insta{
-    background-image: url(../img/insta768.png);
     width: 50px;
     height: 51px;
 }
@@ -1030,22 +1037,19 @@ footer {
     letter-spacing: 0.013em;
 }
 footer{
-    background-image: url(../img/footer768.png) no-repeat center/cover;
-    max-height: 317px;
+    height: 314px;   
 }
 .linkNavigationFooter{
     line-height: 29px;
 }
 .textFooter1{
     margin-top: 13px;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 32px;
-    letter-spacing: 0.013em;
+    letter-spacing: 0.024em;
 }
 .textFooter2{
-    position: absolute;
-    top: 45px;
-    right: 20px;
+    margin-top: -25px;
     text-align: right;
 }
 .contactsBlockFooter{
@@ -1064,9 +1068,8 @@ footer{
     text-align: right;
 }
 .imgFooter{
-    position: absolute;
-    top: 155px;
-    margin-left: 445px;
+    width: 92px;
+    margin-left: auto;
 }
 .locationBlock{ 
     padding: 15px 0px;
@@ -1076,12 +1079,12 @@ footer{
     letter-spacing: 0.02em;
 }
 .mail{
-    margin-top: 55px;
+    margin-top: 4px;
 }
 .popup-content {
     width: 65%;
 }
-.popup:before {                        /*background*/
+.popup:before {
     display: block;
     content: ' ';
     position: absolute;
@@ -1112,35 +1115,31 @@ footer{
 }
 }
 
-
-
-
-
 @media (min-width: 1024px){
-/* .containerFixed{
+/*
+ .containerFixed{
     max-width: 100%;
     padding-right: 15%;
     padding-left: 15%;
-} */
+} 
+*/
 }
 
-
-
-
-
 @media (min-width: 1199.98px) {
-/* .containerFixed{
+/*
+ .containerFixed{
     max-width: 100%;
     padding-right: 30px;
     padding-left: 30px;
-} */
+} 
+*/
 .provideChernivtsi{
     font-size: 59px;
     line-height: 70px;
     letter-spacing: 0.02em;
 }
+/*
 .mother_with_child{
-    background-image: url("../img/mother_with_child1280.png");
     position: absolute;
     top: 0;
     right: 0px;
@@ -1148,6 +1147,7 @@ footer{
     min-height: 509px;
     z-index: -2;
 }
+*/
 .GoToTheDirectory {
     margin-top: 42px;
     padding: 10px;
@@ -1252,25 +1252,21 @@ footer{
 .brandyLogo{
     margin-top: 5rem;
 }
-.swissKrono{
-    background-image: url(../img/1brands1280.png);
+.brands1{
     width: 230px;
     height: 56px;
 }
-.kronotex{
-    background-image: url(../img/2brands1280.png);
+.brands2{
     margin-left: 20px;
     width: 189px;
     height: 52px;
 }
-.e_and_rectangle{
-    background-image: url(../img/3brands1280.png);
+.brands3{
     margin-left: 65px;
     width: 190px;
     height: 56px;
 }
-.myFloor{
-    background-image: url(../img/4brands1280.png);
+.brands4{
     margin-left: 90px;
     width: 190px;
     height: 44px;
@@ -1325,8 +1321,7 @@ footer{
     margin-bottom: 83px;
 }  
 footer{
-    background: url("../img/footer1280.png");
-    min-height: 247px;
+    height: 244px;
 }
 .linkNavigationFooter{
     margin-top: 16px;
@@ -1341,30 +1336,28 @@ footer{
     margin-top: 29px;
     font-size: 25px;
     line-height: 32px;
+    width: 679px;
 }   
 .textFooter2{
-    top: 30px;
-    left: 1100px;
+    margin-top: 38px;
     width: 164px;
-    margin-top: 5px;
     font-size: 17px;
     line-height: 20px;
 }
 .contactsBlockFooter{
-    margin-top: 20px;
+    margin-top: 8px;
     font-size: 25px;
     line-height: 32px;
 }
 .imgFooter{
-    margin-top: -5px;
-    margin-left: 815px;
+    margin-top: -10px;
 }
 .mail{
-    margin-top: 63px;
+    margin-top: 6px;
 }
 .locationBlock{
-    margin-top: -60px;
-    margin-left: 310px;
+    margin-top: -65px;
+    margin-left: 280px;
     font-size: 17px;
     line-height: 20px;
 }
@@ -1388,33 +1381,24 @@ footer{
 }
 }
 
-
-
-
-
 @media (min-width: 1440px){
-/* .containerFixed{
+/*
+ .containerFixed{
     max-width: 100%;
     padding-right: 0%;
     padding-left: 12.5%;
-} */
-.mother_with_child{
-    right: 1%;
+} 
+*/
 }
-}
-
-
-
-
-
-
 
 @media (min-width: 1800px) {
-/* .containerFixed{
+/*
+ .containerFixed{
     max-width: 100%;
     padding-right: 15%;
     padding-left: 15%;
-} */
+} 
+*/
 .provideChernivtsi {
     font-size: 59px;
     line-height: 70px;
@@ -1431,14 +1415,15 @@ footer{
 .contentTextH3 {
     line-height: 30px;
 }   
+/*
 .mother_with_child{
     margin-top: 35px;
-    background: url("../img/mother_with_child1920.png");
     right: 15%;
     min-width: 800px;
     min-height: 579px;
     z-index: -2;
 }
+*/
 .headlines{
     margin-top: 128px;
     margin-bottom: 50px;
@@ -1464,19 +1449,6 @@ footer{
 .catalogBlock img{
     width: 309px;
     height: 245px;
-}
-.percent {
-    background-image: url(../img/percent1920.png);
-    width: 60px;
-}
-.assortment {
-    background-image: url(../img/assortment1920.png);
-    width: 60px;
-}
-.truck {
-    background-image: url(../img/truck1920.png);
-    width: 90px;
-    height: 60px;
 }
 .catalogText{
     font-size: 17px;
@@ -1505,23 +1477,19 @@ footer{
     line-height: 30px;
     letter-spacing: 0.013em; 
 }
-.swissKrono{
-    background-image: url(../img/1brands1920.png);
+.brands1{
     width: 250px;
     height: 60px;
 }
-.kronotex{
-    background-image: url(../img/2brands1920.png);
+.brands2{
     width: 207px;
     height: 56px;
 }
-.e_and_rectangle{
-    background-image: url(../img/3brands1920.png);
+.brands3{
     width: 207px;
     height: 60px;
 }
-.myFloor{
-    background-image: url(../img/4brands1920.png);
+.brands4{
     width: 208px;
     height: 48px;
 }
@@ -1570,8 +1538,7 @@ footer{
     letter-spacing: 0.013em;
 }
 footer{
-    background: url("../img/footer1920.png");
-    min-height: 333px;
+    height: 366px;
 }
 .linkNavigationFooterFirst{
     margin-top: 45px;
@@ -1587,14 +1554,14 @@ footer{
     letter-spacing: 0.02em;
 }
 .textFooter1{
-    margin-left: 25px;
+    float: right;
     margin-top: 45px;
     font-size: 25px;
     line-height: 32px;
 }
 .textFooter2{
-    top: 82px;
-    left: 1335px;
+    margin-top: 12px;
+    margin-left: auto;
     width: 309px;
     font-size: 17px;
     line-height: 20px;
@@ -1606,18 +1573,18 @@ footer{
     line-height: 25px;
 }
 .contactsBlockFooter{
-    margin-top: 70px;
+    margin-top: 41px;
     font-size: 25px;
     line-height: 42px;
 }
 .imgFooter{
-    margin-top: 110px;
-    margin-left: 565px;
+    margin-top: 41px;
 }
 .mail{
+    margin-top: -20px;
     margin-right: 110px; 
 }
-    
+ 
 .popup-content {
     width: 50%;
     height: 467px;
@@ -1646,70 +1613,5 @@ footer{
     line-height: 20px;
 }
 }
-
-
-
-
-
-
-.fixedNavigation {
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: flex;
-    padding: 6px 9px;
-    width: 397px;
-    height: 26px;
-    background: rgba(74, 74, 74, 0.88);
-}
-
-.markNavigation {
-    width: 10px;
-    height: 14px;
-}
-
-.iconWrapper {
-    display: flex;
-}
-
-.textNavigation {
-    margin-left: 4px;
-    text-decoration: none;
-    font-family: Montserrat;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
-
-.phoneNavigation {
-    margin-left: 0.625rem;
-    align-items: center;
-}
-
-.navigationPhoneCell {
-    display: flex;
-    margin-left: 1rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
