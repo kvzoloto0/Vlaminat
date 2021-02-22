@@ -395,6 +395,12 @@ section {
     color: #4A4A4a;
 }
 
+.mother_with_child{
+    width: 100%;
+    height: 215px;
+    object-fit: cover;
+}
+
 .thatsWhyWeText {        
     margin-top: 8px;
     font-family: Montserrat;
@@ -846,14 +852,13 @@ footer {
     height: 100%;
 }
 
-@media (min-width: 320px) {
-/*
-.mother_with_child{
-    width: 100%;
-    max-width: 320px; 
-    height: 215px;
+a[href^=tel] { 
+    color: inherit; 
 }
-*/
+
+@media (min-width: 320px) {
+
+
 }
 
 @media (min-width: 768px) { 
@@ -882,13 +887,12 @@ footer {
     font-size: 22px;
     letter-spacing: 0.013em;
 }
-/*
+
 .mother_with_child{
-    max-width: 768px;
     height: 486px;
     width: 100%;
 }
-*/
+
 .quickConsultation1{
     margin-top: 32px;
     width: 309px;
@@ -1145,16 +1149,16 @@ footer{
     line-height: 70px;
     letter-spacing: 0.02em;
 }
-/*
+
 .mother_with_child{
     position: absolute;
+    right: 0;
     top: 0;
-    right: 0px;
     width: 772px;
     min-height: 509px;
     z-index: -2;
 }
-*/
+
 .GoToTheDirectory {
     margin-top: 42px;
     padding: 10px;
@@ -1422,15 +1426,16 @@ footer{
 .contentTextH3 {
     line-height: 30px;
 }   
-/*
+
 .mother_with_child{
-    margin-top: 35px;
-    right: 15%;
-    min-width: 800px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 800px;
     min-height: 579px;
     z-index: -2;
 }
-*/
+
 .headlines{
     margin-top: 128px;
     margin-bottom: 50px;
