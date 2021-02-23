@@ -31,7 +31,7 @@ header {
 }
 
 .textNavigation {
-    margin-left: 4px;768
+    margin-left: 4px;
     text-decoration: none;
     font-family: Montserrat;
     font-size: 12px;
@@ -51,7 +51,7 @@ header {
 }
 
 section {
-    margin-top: 5rem;
+    margin-top: 1.3rem;
 }
 
 .fixedNav {
@@ -808,11 +808,12 @@ footer {
     font-size: 17px;
     line-height: 30px;
     letter-spacing: 0.02em;
-    color: #BEBEBE;
+    color: #FFFFFF;
 }
 
 .name {
     margin-top: 46px;
+    
 }
 
 .quickConsultation {
@@ -881,6 +882,9 @@ a[href^=tel] {
 .truck{
     width: 90px;
     height: 60px;
+}
+section {
+    margin-top: 3rem;
 }
 .provideChernivtsi {
     font-size: 48px;
@@ -1231,7 +1235,7 @@ footer{
 }
 .catalogBlock{
     margin-top: 34px;
-    width: 289px;
+    width: 280px;
     height: 305px;
 } 
 .catalogLines{
@@ -1248,9 +1252,9 @@ footer{
     letter-spacing: 0.013em;
 }
  .allAtTheAddressBlock{
-    margin-top: 30px;
-    width: 289px;
-    height: 305px;  
+    margin-top: 33px;
+    width: 280px;
+    height: 298px;  
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.02em;
@@ -1380,7 +1384,7 @@ footer{
     margin-top: 6px;
 }
 .locationBlock{
-    margin-top: -65px;
+    margin-top: -55px;
     font-size: 17px;
     line-height: 20px;
 }
@@ -1423,6 +1427,9 @@ footer{
     padding-left: 15%;
 } 
 */
+section {
+    margin-top: 4rem;
+}
 .provideChernivtsi {
     font-size: 59px;
     line-height: 70px;
@@ -1577,10 +1584,10 @@ footer{
     margin-top: 45px;
 }
 .linkNavigationFooter {
-    line-height: 1.1;
+    line-height: 1.8;
 }
 .locationBlock{
-    margin-top: -60px;
+    margin-top: -55px;
     margin-left: 0px;
     font-size: 17px;
     line-height: 20px;
@@ -1617,7 +1624,6 @@ footer{
     margin-top: -20px;
     margin-right: 110px; 
 }
- 
 .popup-content {
     width: 50%;
     height: 467px;
@@ -1646,6 +1652,8 @@ footer{
     line-height: 20px;
 }
 }
+
+
 
 
 
