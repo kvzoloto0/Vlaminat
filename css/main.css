@@ -31,7 +31,7 @@ header {
 }
 
 .textNavigation {
-    margin-left: 4px;
+    margin-left: 4px;768
     text-decoration: none;
     font-family: Montserrat;
     font-size: 12px;
@@ -434,12 +434,16 @@ section {
 .catalogBlock img{
     display: block;
     width: 100%;
-    max-height: 245px;
+    max-height: 99px;
 }
 
 .catalogLines {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: justify;
     border: 1px solid grey;
-    padding-left: 8px;
+    height: 49px;
+    padding: 0px 8px 0px;
 }
 
 .catalogText {
@@ -503,6 +507,7 @@ label {
 }
 
 .allAtTheAddressBlock {
+    margin-top: 20px;
     width: 100%;
     height: 148px;
     background: #777777;
@@ -571,6 +576,8 @@ label {
 }
 
 .reviews {
+    width: 132px;
+    height: 234px;
     margin-top: 28px;
 }
 
@@ -737,8 +744,7 @@ footer {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #000;
-    opacity: .5;
+    backdrop-filter: blur(30px);
 }
 
 .popup-content {
@@ -952,10 +958,13 @@ a[href^=tel] {
     margin-top: 20px;
     width: 355px;
     height: 324px;
-}   
+}  
+.catalogLines{
+    height: 79px;
+    padding: 3px 10px 0px;
+}
 .catalogBlock img{
-    width: 355px;
-    height: 245px;
+    max-height: 245px;
 }
 .showAllBlock{
     width: 188px;
@@ -1008,7 +1017,7 @@ a[href^=tel] {
     height: 36px;
 }
 .reviews{
-    width: 355px;
+    width: 330px;
     height: 631px;
 }
 .contactsBlock{
@@ -1097,8 +1106,8 @@ footer{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #4A4A4A;
-    opacity: 9;
+    opacity: 0.5;
+    backdrop-filter: blur(30px);
 }
 .popup-content input{
     display: block;
@@ -1225,9 +1234,12 @@ footer{
     width: 289px;
     height: 305px;
 } 
+.catalogLines{
+    height: 75px;
+    padding: 0px 10px 0px;
+}
 .catalogBlock img{
-    width: 289px;
-    height: 305px;
+    max-height: 230px;
 }
 .catalogPrices{
     font-weight: 500;
@@ -1236,9 +1248,9 @@ footer{
     letter-spacing: 0.013em;
 }
  .allAtTheAddressBlock{
-    margin-top: 35px;
+    margin-top: 30px;
     width: 289px;
-    height: 320px;  
+    height: 305px;  
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.02em;
@@ -1398,6 +1410,7 @@ footer{
     max-width: 100%;
     padding-right: 0%;
     padding-left: 12.5%;
+     
 } 
 */
 }
@@ -1459,8 +1472,11 @@ footer{
     margin-bottom: 30px;
 } 
 .catalogBlock img{
-    width: 309px;
-    height: 245px;
+    max-height: 309px;
+}
+.catalogLines{
+    height: 82px;
+    padding: 4px 10px 0px;
 }
 .catalogText{
     font-size: 17px;
@@ -1477,6 +1493,11 @@ footer{
     margin-top: 40px;
     width: 236px;
     height: 55px;
+}
+.allAtTheAddressBlock{
+    margin-top: 13px;
+    height: 327px;
+    width: 309px;
 }
 .showAll{
     font-weight: 500;
@@ -1625,5 +1646,7 @@ footer{
     line-height: 20px;
 }
 }
+
+
 
 
