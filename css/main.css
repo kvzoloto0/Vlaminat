@@ -134,11 +134,11 @@ section {
 }
 
 .navBurger:before {
-    top: -10px;
+    top: -10px; 
 }
 
 .navBurger:after {
-    bottom: -10px;
+    bottom: -10px;   
 }
 
 .navBurger.active {
@@ -146,7 +146,8 @@ section {
     right: 30px;
     position: fixed;
     background: transparent;
-    background-clip: content-box;
+    background-clip: content-box;    
+    z-index: 15;
 }
 
 .navBurger.active:before {
@@ -180,6 +181,7 @@ section {
     overflow: hidden;
     width: 100vw;
     height: 100vh;
+    z-index: 10;
 }
 
 .overlay.open {
