@@ -1,4 +1,5 @@
-$("#navToggle").click(function() {                                          /*navBurger*/
+/*navBurger*/
+$("#navToggle").click(function() {
     $(this).toggleClass("active");
     $(".overlay").toggleClass("open");
     // this line ¡ prevents content scroll-behind
@@ -7,11 +8,19 @@ $("#navToggle").click(function() {                                          /*na
 $('.overlay').click(function() {
     $(this).removeClass('open');
     $('.navBurger').removeClass('active');
-});                                                                            /*navBurger*/
+});
+/*navBurger*/
 
-
-
-
+/*start scrooll burger*/
+function lockScroll() {
+    if ($('body').hasClass('lock-scroll')) {
+        $('body').removeClass('lock-scroll');
+    }
+    else {
+        $('body').addClass('lock-scroll');
+    }
+}
+/* end scrooll burger*/
  
 
 
@@ -50,6 +59,25 @@ var mask = new IMask(element, maskOptions);
 
 
 
+$(function(){
+  $('.minimized').click(function(event) {
+    var i_path = $(this).attr('src');
+    $('body').append('<div id="overlay"></div><div id="magnify"><img src="'+i_path+'"><div id="close-popup"><i></i></div></div>');
+    $('#magnify').css({
+     left: ($(document).width() - $('#magnify').outerWidth())/2,
+     // top: ($(document).height() - $('#magnify').outerHeight())/2 upd: 24.10.2016
+            top: ($(window).height() - $('#magnify').outerHeight())/2
+   });
+    $('#overlay, #magnify').fadeIn('fast');
+  });
+  
+  $('body').on('click', '#close-popup, #overlay', function(event) {
+    event.preventDefault();
+    $('#overlay, #magnify').fadeOut('fast', function() {
+      $('#close-popup, #magnify, #overlay').remove();
+    });
+  });
+});
 
 
 
