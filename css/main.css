@@ -60,45 +60,8 @@ section {
     background: #FFFAF5;
 }
 
-.logoBlock {
-    display: flex;
-}
-
-.logoL {
-    width: 34px;
-    height: 45px;
-}
-
-.logoBlockVandText {
-    display: flex;
-    flex-direction: column;
-}
-
-.blockWithTextL {
-    margin-left: 4px;
-    font-family: 'Comfortaa';
-    font-size: 17px;
-    line-height: 17px;
-    letter-spacing: 0.155em;
-    color: #4A4A4A;
-    opacity: 0.9;
-}
-
-.logoV {   
-    margin-top: 2px;
-    margin-left: -6px;
-    width: 23px;
-    height: 29px;
-}
-
-.blockWithTextV {
-    margin-top: -15px;
-    margin-left: 13px; 
-    font-family: Comfortaa;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0.155em;
-    color: #BEBEBE;
+.logo{
+    width: 50px;
 }
 
 .navBurger {   
@@ -1151,26 +1114,12 @@ footer{
 
 
 @media (min-width: 1024px){
-/*
- .containerFixed{
-    max-width: 100%;
-    padding-right: 15%;
-    padding-left: 15%;
-} 
-*/
 #magnify{
     width: 35%;
 }
 }
 
 @media (min-width: 1199.98px) {
-/*
- .containerFixed{
-    max-width: 100%;
-    padding-right: 30px;
-    padding-left: 30px;
-} 
-*/
 #magnify{
     width: 25%;
 }
@@ -1437,13 +1386,6 @@ footer{
 }
 
 @media (min-width: 1800px) {
-/*
- .containerFixed{
-    max-width: 100%;
-    padding-right: 15%;
-    padding-left: 15%;
-} 
-*/
 #magnify {
     width: 20%;
 }
@@ -1748,3 +1690,5 @@ footer{
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
+
